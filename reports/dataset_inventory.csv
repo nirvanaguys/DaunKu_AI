@@ -1,0 +1,7 @@
+Dataset,Task,Format,Total Images,Train Images,Valid Images,Test Images,Unsplit Images,Size (MB),Corrupted
+Houseplants Image Detection.v1i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),6055,5967,4,84,0,320.69,0
+Perfect Data Set,Image Classification,Directory Structure (Folder per Class),3449,0,0,0,3449,1649.84,0
+Plant Classification and Disease.v1i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),628,563,46,19,0,33.65,0
+Plant Classification and Disease.v3i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),3184,2921,178,85,0,222.62,0
+Rose And MArigold Leaf Disease 1,Image Classification,Directory Structure (Folder per Class),3449,0,0,0,3449,1649.84,0
+goletplant.v5i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),26063,25373,22,668,0,4919.25,0

@@ -1,0 +1,202 @@
+{
+  "Houseplants Image Detection.v1i.tensorflow": {
+    "dataset_name": "Houseplants Image Detection.v1i.tensorflow",
+    "task_type": "Object Detection",
+    "annotation_format": "TensorFlow Object Detection (_annotations.csv)",
+    "total_images": 6055,
+    "total_size_mb": 320.69,
+    "file_counts_by_ext": {
+      ".txt": 2,
+      ".jpg": 6055,
+      ".csv": 3
+    },
+    "split_counts": {
+      "root": {
+        "images": 0,
+        "annotations": 0,
+        "other": 2
+      },
+      "test": {
+        "images": 84,
+        "annotations": 1,
+        "other": 0
+      },
+      "train": {
+        "images": 5967,
+        "annotations": 1,
+        "other": 0
+      },
+      "valid": {
+        "images": 4,
+        "annotations": 1,
+        "other": 0
+      }
+    },
+    "config_files": [
+      "README.dataset.txt",
+      "README.roboflow.txt"
+    ],
+    "corrupted_images_count": 0,
+    "corrupted_images": []
+  },
+  "Perfect Data Set": {
+    "dataset_name": "Perfect Data Set",
+    "task_type": "Image Classification",
+    "annotation_format": "Directory Structure (Folder per Class)",
+    "total_images": 3449,
+    "total_size_mb": 1649.84,
+    "file_counts_by_ext": {
+      ".jpg": 3449
+    },
+    "split_counts": {
+      "subfolders": {
+        "images": 3449,
+        "annotations": 0,
+        "other": 0
+      }
+    },
+    "config_files": [],
+    "corrupted_images_count": 0,
+    "corrupted_images": []
+  },
+  "Plant Classification and Disease.v1i.tensorflow": {
+    "dataset_name": "Plant Classification and Disease.v1i.tensorflow",
+    "task_type": "Object Detection",
+    "annotation_format": "TensorFlow Object Detection (_annotations.csv)",
+    "total_images": 628,
+    "total_size_mb": 33.65,
+    "file_counts_by_ext": {
+      ".txt": 2,
+      ".jpg": 628,
+      ".csv": 3
+    },
+    "split_counts": {
+      "root": {
+        "images": 0,
+        "annotations": 0,
+        "other": 2
+      },
+      "test": {
+        "images": 19,
+        "annotations": 1,
+        "other": 0
+      },
+      "train": {
+        "images": 563,
+        "annotations": 1,
+        "other": 0
+      },
+      "valid": {
+        "images": 46,
+        "annotations": 1,
+        "other": 0
+      }
+    },
+    "config_files": [
+      "README.dataset.txt",
+      "README.roboflow.txt"
+    ],
+    "corrupted_images_count": 0,
+    "corrupted_images": []
+  },
+  "Plant Classification and Disease.v3i.tensorflow": {
+    "dataset_name": "Plant Classification and Disease.v3i.tensorflow",
+    "task_type": "Object Detection",
+    "annotation_format": "TensorFlow Object Detection (_annotations.csv)",
+    "total_images": 3184,
+    "total_size_mb": 222.62,
+    "file_counts_by_ext": {
+      ".txt": 2,
+      ".jpg": 3184,
+      ".csv": 3
+    },
+    "split_counts": {
+      "root": {
+        "images": 0,
+        "annotations": 0,
+        "other": 2
+      },
+      "test": {
+        "images": 85,
+        "annotations": 1,
+        "other": 0
+      },
+      "train": {
+        "images": 2921,
+        "annotations": 1,
+        "other": 0
+      },
+      "valid": {
+        "images": 178,
+        "annotations": 1,
+        "other": 0
+      }
+    },
+    "config_files": [
+      "README.dataset.txt",
+      "README.roboflow.txt"
+    ],
+    "corrupted_images_count": 0,
+    "corrupted_images": []
+  },
+  "Rose And MArigold Leaf Disease 1": {
+    "dataset_name": "Rose And MArigold Leaf Disease 1",
+    "task_type": "Image Classification",
+    "annotation_format": "Directory Structure (Folder per Class)",
+    "total_images": 3449,
+    "total_size_mb": 1649.84,
+    "file_counts_by_ext": {
+      ".jpg": 3449
+    },
+    "split_counts": {
+      "subfolders": {
+        "images": 3449,
+        "annotations": 0,
+        "other": 0
+      }
+    },
+    "config_files": [],
+    "corrupted_images_count": 0,
+    "corrupted_images": []
+  },
+  "goletplant.v5i.tensorflow": {
+    "dataset_name": "goletplant.v5i.tensorflow",
+    "task_type": "Object Detection",
+    "annotation_format": "TensorFlow Object Detection (_annotations.csv)",
+    "total_images": 26063,
+    "total_size_mb": 4919.25,
+    "file_counts_by_ext": {
+      ".txt": 2,
+      ".jpg": 26063,
+      ".csv": 3
+    },
+    "split_counts": {
+      "root": {
+        "images": 0,
+        "annotations": 0,
+        "other": 2
+      },
+      "test": {
+        "images": 668,
+        "annotations": 1,
+        "other": 0
+      },
+      "train": {
+        "images": 25373,
+        "annotations": 1,
+        "other": 0
+      },
+      "valid": {
+        "images": 22,
+        "annotations": 1,
+        "other": 0
+      }
+    },
+    "config_files": [
+      "README.dataset.txt",
+      "README.roboflow.txt"
+    ],
+    "corrupted_images_count": 0,
+    "corrupted_images": []
+  }
+}

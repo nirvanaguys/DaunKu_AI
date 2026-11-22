@@ -1,0 +1,224 @@
+Dataset,Split,Class Name,Category Type,Bounding Boxes,Unique Images
+goletplant.v5i.tensorflow,train,Bamboo,Plant Species,662,495
+goletplant.v5i.tensorflow,train,Euphorbiamilii,Plant Species,916,753
+goletplant.v5i.tensorflow,train,Adenium,Plant Species,681,586
+goletplant.v5i.tensorflow,train,Alocasia,Plant Species,1290,499
+goletplant.v5i.tensorflow,train,FatsiaJaponica,Plant Species,636,478
+goletplant.v5i.tensorflow,train,Dieffenbachia,Plant Species,629,471
+goletplant.v5i.tensorflow,train,White orchids,Plant Species,517,472
+goletplant.v5i.tensorflow,train,Chlorophytum comosum,Plant Species,742,583
+goletplant.v5i.tensorflow,train,Pachypodiumlamerei,Plant Species,1098,488
+goletplant.v5i.tensorflow,train,Epipremnum,Plant Species,1072,744
+goletplant.v5i.tensorflow,train,Hedera Helix,Plant Species,792,613
+goletplant.v5i.tensorflow,train,Poinsettia,Plant Species,635,483
+goletplant.v5i.tensorflow,train,Philodendron Hope Selloum,Plant Species,1294,477
+goletplant.v5i.tensorflow,train,Jade plant,Plant Species,663,501
+goletplant.v5i.tensorflow,train,zz plant,Plant Species,888,542
+goletplant.v5i.tensorflow,train,PonytailPalm,Plant Species,569,492
+goletplant.v5i.tensorflow,train,Spathiphyllum,Plant Species,648,483
+goletplant.v5i.tensorflow,train,Pachira,Plant Species,545,429
+goletplant.v5i.tensorflow,train,Hypoestesphyllostachya,Plant Species,725,468
+goletplant.v5i.tensorflow,train,Tradescantia fluminensis,Plant Species,853,657
+goletplant.v5i.tensorflow,train,Ficusbenjamina,Plant Species,565,450
+goletplant.v5i.tensorflow,train,Pelargonium graveolens,Plant Species,610,511
+goletplant.v5i.tensorflow,train,WaxBegonia,Plant Species,1288,274
+goletplant.v5i.tensorflow,train,Amaryllis,Plant Species,544,488
+goletplant.v5i.tensorflow,train,Echeveria,Plant Species,643,420
+goletplant.v5i.tensorflow,train,BostonFern,Plant Species,624,558
+goletplant.v5i.tensorflow,train,Kalanchoe,Plant Species,574,476
+goletplant.v5i.tensorflow,train,FicusElastica,Plant Species,668,506
+goletplant.v5i.tensorflow,train,Pelargonium xdomesticum,Plant Species,459,296
+goletplant.v5i.tensorflow,train,Aglaonema,Plant Species,814,688
+goletplant.v5i.tensorflow,train,Fiddle-leaf,Plant Species,660,510
+goletplant.v5i.tensorflow,train,Monstera deliciosa,Plant Species,1367,670
+goletplant.v5i.tensorflow,train,Mesembryanthemum cordifolium,Plant Species,538,437
+goletplant.v5i.tensorflow,train,Araucaria heterophylla,Plant Species,354,310
+goletplant.v5i.tensorflow,train,verbena,Plant Species,1055,271
+goletplant.v5i.tensorflow,train,Solenostemon,Plant Species,1640,613
+goletplant.v5i.tensorflow,train,Schefflera,Plant Species,1753,616
+goletplant.v5i.tensorflow,train,snake plant,Plant Species,1139,723
+goletplant.v5i.tensorflow,train,Peperomia caperata,Plant Species,1993,467
+goletplant.v5i.tensorflow,train,BegoniaRex,Plant Species,575,454
+goletplant.v5i.tensorflow,train,Zebra haworthia,Plant Species,1081,544
+goletplant.v5i.tensorflow,train,anthurium,Plant Species,501,464
+goletplant.v5i.tensorflow,train,Maidenhair fern,Plant Species,502,481
+goletplant.v5i.tensorflow,train,Syngonium,Plant Species,662,400
+goletplant.v5i.tensorflow,train,Kalanchoesect Bryophyllum,Plant Species,539,464
+goletplant.v5i.tensorflow,train,BunnyEarCactus,Plant Species,412,314
+goletplant.v5i.tensorflow,train,Croton,Plant Species,694,500
+goletplant.v5i.tensorflow,train,Aloevera,Plant Species,586,513
+goletplant.v5i.tensorflow,train,Pelargonium hortorum,Plant Species,651,502
+goletplant.v5i.tensorflow,train,CrassulaPortulaca,Plant Species,494,370
+goletplant.v5i.tensorflow,train,Pedilanthus,Plant Species,551,370
+goletplant.v5i.tensorflow,train,ChineseMoneyPlant,Plant Species,70,56
+goletplant.v5i.tensorflow,train,-,Invalid / Noise,3,3
+goletplant.v5i.tensorflow,valid,Jade plant,Plant Species,8,4
+goletplant.v5i.tensorflow,valid,Hedera Helix,Plant Species,7,7
+goletplant.v5i.tensorflow,valid,Kalanchoesect Bryophyllum,Plant Species,5,4
+goletplant.v5i.tensorflow,valid,Kalanchoe,Plant Species,4,4
+goletplant.v5i.tensorflow,valid,Hypoestesphyllostachya,Plant Species,2,2
+goletplant.v5i.tensorflow,valid,ChineseMoneyPlant,Plant Species,1,1
+goletplant.v5i.tensorflow,test,Tradescantia fluminensis,Plant Species,15,14
+goletplant.v5i.tensorflow,test,Syngonium,Plant Species,16,10
+goletplant.v5i.tensorflow,test,Philodendron Hope Selloum,Plant Species,35,15
+goletplant.v5i.tensorflow,test,Pachira,Plant Species,17,14
+goletplant.v5i.tensorflow,test,ChineseMoneyPlant,Plant Species,209,157
+goletplant.v5i.tensorflow,test,Epipremnum,Plant Species,22,12
+goletplant.v5i.tensorflow,test,Pelargonium xdomesticum,Plant Species,12,9
+goletplant.v5i.tensorflow,test,Croton,Plant Species,4,4
+goletplant.v5i.tensorflow,test,BunnyEarCactus,Plant Species,71,67
+goletplant.v5i.tensorflow,test,PonytailPalm,Plant Species,8,6
+goletplant.v5i.tensorflow,test,Jade plant,Plant Species,16,8
+goletplant.v5i.tensorflow,test,Pachypodiumlamerei,Plant Species,66,21
+goletplant.v5i.tensorflow,test,Echeveria,Plant Species,17,8
+goletplant.v5i.tensorflow,test,Peperomia caperata,Plant Species,34,8
+goletplant.v5i.tensorflow,test,FicusElastica,Plant Species,19,12
+goletplant.v5i.tensorflow,test,Pelargonium hortorum,Plant Species,15,10
+goletplant.v5i.tensorflow,test,Chlorophytum comosum,Plant Species,21,14
+goletplant.v5i.tensorflow,test,Zebra haworthia,Plant Species,28,15
+goletplant.v5i.tensorflow,test,Pedilanthus,Plant Species,21,17
+goletplant.v5i.tensorflow,test,Solenostemon,Plant Species,68,19
+goletplant.v5i.tensorflow,test,verbena,Plant Species,45,15
+goletplant.v5i.tensorflow,test,Monstera deliciosa,Plant Species,42,17
+goletplant.v5i.tensorflow,test,Maidenhair fern,Plant Species,17,13
+goletplant.v5i.tensorflow,test,Kalanchoe,Plant Species,7,6
+goletplant.v5i.tensorflow,test,Spathiphyllum,Plant Species,11,8
+goletplant.v5i.tensorflow,test,FatsiaJaponica,Plant Species,13,10
+goletplant.v5i.tensorflow,test,Schefflera,Plant Species,46,13
+goletplant.v5i.tensorflow,test,Euphorbiamilii,Plant Species,19,14
+goletplant.v5i.tensorflow,test,snake plant,Plant Species,19,9
+goletplant.v5i.tensorflow,test,Kalanchoesect Bryophyllum,Plant Species,13,11
+goletplant.v5i.tensorflow,test,Mesembryanthemum cordifolium,Plant Species,14,11
+goletplant.v5i.tensorflow,test,Pelargonium graveolens,Plant Species,10,7
+goletplant.v5i.tensorflow,test,Fiddle-leaf,Plant Species,13,11
+goletplant.v5i.tensorflow,test,White orchids,Plant Species,9,8
+goletplant.v5i.tensorflow,test,Poinsettia,Plant Species,15,14
+goletplant.v5i.tensorflow,test,Hypoestesphyllostachya,Plant Species,9,8
+goletplant.v5i.tensorflow,test,Hedera Helix,Plant Species,15,15
+goletplant.v5i.tensorflow,test,Dieffenbachia,Plant Species,9,7
+goletplant.v5i.tensorflow,test,zz plant,Plant Species,24,16
+goletplant.v5i.tensorflow,test,Ficusbenjamina,Plant Species,5,5
+goletplant.v5i.tensorflow,test,CrassulaPortulaca,Plant Species,7,6
+goletplant.v5i.tensorflow,test,WaxBegonia,Plant Species,19,4
+goletplant.v5i.tensorflow,test,BostonFern,Plant Species,1,1
+Houseplants Image Detection.v1i.tensorflow,train,Monstera deliciosa,Plant Species,1479,723
+Houseplants Image Detection.v1i.tensorflow,train,snake plant,Plant Species,1308,813
+Houseplants Image Detection.v1i.tensorflow,train,Peperomia caperata,Plant Species,2112,495
+Houseplants Image Detection.v1i.tensorflow,train,Epipremnum,Plant Species,1179,816
+Houseplants Image Detection.v1i.tensorflow,train,Chlorophytum comosum,Plant Species,822,642
+Houseplants Image Detection.v1i.tensorflow,train,Kalanchoe,Plant Species,630,525
+Houseplants Image Detection.v1i.tensorflow,train,Alocasia,Plant Species,1449,552
+Houseplants Image Detection.v1i.tensorflow,train,BegoniaRex,Plant Species,615,486
+Houseplants Image Detection.v1i.tensorflow,train,FicusElastica,Plant Species,732,546
+Houseplants Image Detection.v1i.tensorflow,train,CrassulaPortulaca,Plant Species,546,411
+Houseplants Image Detection.v1i.tensorflow,train,Echeveria,Plant Species,9,9
+Houseplants Image Detection.v1i.tensorflow,train,Jade plant,Plant Species,33,18
+Houseplants Image Detection.v1i.tensorflow,train,Philodendron Hope Selloum,Plant Species,21,18
+Houseplants Image Detection.v1i.tensorflow,train,Syngonium,Plant Species,9,9
+Houseplants Image Detection.v1i.tensorflow,train,Fiddle-leaf,Plant Species,3,3
+Houseplants Image Detection.v1i.tensorflow,train,Ficusbenjamina,Plant Species,6,6
+Houseplants Image Detection.v1i.tensorflow,train,zz plant,Plant Species,3,3
+Houseplants Image Detection.v1i.tensorflow,train,BostonFern,Plant Species,6,6
+Houseplants Image Detection.v1i.tensorflow,train,Aglaonema,Plant Species,3,3
+Houseplants Image Detection.v1i.tensorflow,train,PonytailPalm,Plant Species,3,3
+Houseplants Image Detection.v1i.tensorflow,train,BunnyEarCactus,Plant Species,3,3
+Houseplants Image Detection.v1i.tensorflow,train,Schefflera,Plant Species,9,6
+Houseplants Image Detection.v1i.tensorflow,train,Tradescantia fluminensis,Plant Species,9,3
+Houseplants Image Detection.v1i.tensorflow,train,Solenostemon,Plant Species,3,3
+Houseplants Image Detection.v1i.tensorflow,valid,Kalanchoe,Plant Species,4,4
+Houseplants Image Detection.v1i.tensorflow,test,Monstera deliciosa,Plant Species,42,17
+Houseplants Image Detection.v1i.tensorflow,test,Chlorophytum comosum,Plant Species,21,14
+Houseplants Image Detection.v1i.tensorflow,test,Epipremnum,Plant Species,22,12
+Houseplants Image Detection.v1i.tensorflow,test,snake plant,Plant Species,19,9
+Houseplants Image Detection.v1i.tensorflow,test,Kalanchoe,Plant Species,7,6
+Houseplants Image Detection.v1i.tensorflow,test,FicusElastica,Plant Species,19,12
+Houseplants Image Detection.v1i.tensorflow,test,Peperomia caperata,Plant Species,34,8
+Houseplants Image Detection.v1i.tensorflow,test,CrassulaPortulaca,Plant Species,7,6
+Plant Classification and Disease.v1i.tensorflow,train,Swiss Cheese Plant -Monstera Deliciosa-,Plant Species,295,179
+Plant Classification and Disease.v1i.tensorflow,train,Rubber-Fig-Ficus-Elastica-,Plant Species,1101,108
+Plant Classification and Disease.v1i.tensorflow,train,Philippine-Evergreen-Aglaonema-Commutatum-,Plant Species,36,30
+Plant Classification and Disease.v1i.tensorflow,train,Snake-Plant-Dracaena-trifasciata-,Plant Species,51,42
+Plant Classification and Disease.v1i.tensorflow,train,Unhealthy-Sunburn,Plant Condition / Disease,462,138
+Plant Classification and Disease.v1i.tensorflow,train,Unhealthy-Overwatering,Plant Condition / Disease,222,51
+Plant Classification and Disease.v1i.tensorflow,train,Unhealthy-Dehydration,Plant Condition / Disease,81,54
+Plant Classification and Disease.v1i.tensorflow,train,Spider-Plant-Chloropythum-Comosum-,Plant Species,126,69
+Plant Classification and Disease.v1i.tensorflow,train,Inch-Plant-Tradescantia-zebrina-,Plant Species,24,24
+Plant Classification and Disease.v1i.tensorflow,train,Spear-Plant-Dracaena-angolensis-,Plant Species,90,33
+Plant Classification and Disease.v1i.tensorflow,valid,Spider-Plant-Chloropythum-Comosum-,Plant Species,7,5
+Plant Classification and Disease.v1i.tensorflow,valid,Rubber-Fig-Ficus-Elastica-,Plant Species,109,7
+Plant Classification and Disease.v1i.tensorflow,valid,Unhealthy-Sunburn,Plant Condition / Disease,67,14
+Plant Classification and Disease.v1i.tensorflow,valid,Unhealthy-Dehydration,Plant Condition / Disease,5,4
+Plant Classification and Disease.v1i.tensorflow,valid,Swiss Cheese Plant -Monstera Deliciosa-,Plant Species,30,18
+Plant Classification and Disease.v1i.tensorflow,valid,Unhealthy-Overwatering,Plant Condition / Disease,17,6
+Plant Classification and Disease.v1i.tensorflow,valid,Inch-Plant-Tradescantia-zebrina-,Plant Species,5,4
+Plant Classification and Disease.v1i.tensorflow,valid,Snake-Plant-Dracaena-trifasciata-,Plant Species,5,2
+Plant Classification and Disease.v1i.tensorflow,test,Unhealthy-Sunburn,Plant Condition / Disease,23,8
+Plant Classification and Disease.v1i.tensorflow,test,Swiss Cheese Plant -Monstera Deliciosa-,Plant Species,12,7
+Plant Classification and Disease.v1i.tensorflow,test,Inch-Plant-Tradescantia-zebrina-,Plant Species,7,4
+Plant Classification and Disease.v1i.tensorflow,test,Unhealthy-Dehydration,Plant Condition / Disease,4,3
+Plant Classification and Disease.v1i.tensorflow,test,Rubber-Fig-Ficus-Elastica-,Plant Species,46,4
+Plant Classification and Disease.v1i.tensorflow,test,Unhealthy-Overwatering,Plant Condition / Disease,11,2
+Plant Classification and Disease.v3i.tensorflow,train,Aloe-Vera-Aloe-barbadensis-,Plant Species,1985,461
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Mineral-Deficiency,Plant Condition / Disease,87,57
+Plant Classification and Disease.v3i.tensorflow,train,Spider-Plant-Chloropythum-Comosum-,Plant Species,888,470
+Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Green-Velvet-Micholitziana-Frydek-,Plant Species,392,129
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Overwatering,Plant Condition / Disease,117,66
+Plant Classification and Disease.v3i.tensorflow,train,Pothos-Epipremnum-aureum-,Plant Species,917,234
+Plant Classification and Disease.v3i.tensorflow,train,Rubber-Fig-Ficus-Elastica-,Plant Species,686,107
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Sunburn,Plant Condition / Disease,605,299
+Plant Classification and Disease.v3i.tensorflow,train,Swiss Cheese Plant -Monstera Deliciosa-,Plant Species,1328,552
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Powdery-Mildew,Plant Condition / Disease,69,63
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Dehydration,Plant Condition / Disease,321,156
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Leaf-Curl,Plant Condition / Disease,380,126
+Plant Classification and Disease.v3i.tensorflow,train,Inch-Plant-Tradescantia-zebrina-,Plant Species,915,102
+Plant Classification and Disease.v3i.tensorflow,train,Philippine-Evergreen-Aglaonema-Commutatum-,Plant Species,327,86
+Plant Classification and Disease.v3i.tensorflow,train,Snake-Plant-Dracaena-trifasciata-,Plant Species,671,224
+Plant Classification and Disease.v3i.tensorflow,train,Spear-Plant-Dracaena-angolensis-,Plant Species,158,47
+Plant Classification and Disease.v3i.tensorflow,train,Unhealthy-Rust,Plant Condition / Disease,460,140
+Plant Classification and Disease.v3i.tensorflow,valid,Inch-Plant-Tradescantia-zebrina-,Plant Species,70,10
+Plant Classification and Disease.v3i.tensorflow,valid,Aloe-Vera-Aloe-barbadensis-,Plant Species,147,38
+Plant Classification and Disease.v3i.tensorflow,valid,Unhealthy-Rust,Plant Condition / Disease,37,10
+Plant Classification and Disease.v3i.tensorflow,valid,Pothos-Epipremnum-aureum-,Plant Species,93,25
+Plant Classification and Disease.v3i.tensorflow,valid,Spider-Plant-Chloropythum-Comosum-,Plant Species,50,15
+Plant Classification and Disease.v3i.tensorflow,valid,Unhealthy-Sunburn,Plant Condition / Disease,51,20
+Plant Classification and Disease.v3i.tensorflow,valid,Philippine-Evergreen-Aglaonema-Commutatum-,Plant Species,25,3
+Plant Classification and Disease.v3i.tensorflow,valid,Snake-Plant-Dracaena-trifasciata-,Plant Species,37,11
+Plant Classification and Disease.v3i.tensorflow,valid,Unhealthy-Powdery-Mildew,Plant Condition / Disease,5,4
+Plant Classification and Disease.v3i.tensorflow,valid,Rubber-Fig-Ficus-Elastica-,Plant Species,76,7
+Plant Classification and Disease.v3i.tensorflow,valid,Unhealthy-Overwatering,Plant Condition / Disease,18,8
+Plant Classification and Disease.v3i.tensorflow,valid,Unhealthy-Mineral-Deficiency,Plant Condition / Disease,6,3
+Plant Classification and Disease.v3i.tensorflow,valid,Swiss Cheese Plant -Monstera Deliciosa-,Plant Species,35,23
+Plant Classification and Disease.v3i.tensorflow,valid,Spear-Plant-Dracaena-angolensis-,Plant Species,12,5
+Plant Classification and Disease.v3i.tensorflow,valid,Alocasia-Green-Velvet-Micholitziana-Frydek-,Plant Species,6,3
+Plant Classification and Disease.v3i.tensorflow,valid,Unhealthy-Dehydration,Plant Condition / Disease,23,11
+Plant Classification and Disease.v3i.tensorflow,test,Rubber-Fig-Ficus-Elastica-,Plant Species,32,4
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Sunburn,Plant Condition / Disease,27,13
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Powdery-Mildew,Plant Condition / Disease,1,1
+Plant Classification and Disease.v3i.tensorflow,test,Snake-Plant-Dracaena-trifasciata-,Plant Species,22,5
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Rust,Plant Condition / Disease,28,7
+Plant Classification and Disease.v3i.tensorflow,test,Aloe-Vera-Aloe-barbadensis-,Plant Species,97,20
+Plant Classification and Disease.v3i.tensorflow,test,Swiss Cheese Plant -Monstera Deliciosa-,Plant Species,55,21
+Plant Classification and Disease.v3i.tensorflow,test,Pothos-Epipremnum-aureum-,Plant Species,21,7
+Plant Classification and Disease.v3i.tensorflow,test,Spear-Plant-Dracaena-angolensis-,Plant Species,1,1
+Plant Classification and Disease.v3i.tensorflow,test,Inch-Plant-Tradescantia-zebrina-,Plant Species,12,5
+Plant Classification and Disease.v3i.tensorflow,test,Spider-Plant-Chloropythum-Comosum-,Plant Species,11,4
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Leaf-Curl,Plant Condition / Disease,8,3
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Dehydration,Plant Condition / Disease,6,5
+Plant Classification and Disease.v3i.tensorflow,test,Alocasia-Green-Velvet-Micholitziana-Frydek-,Plant Species,2,2
+Plant Classification and Disease.v3i.tensorflow,test,Philippine-Evergreen-Aglaonema-Commutatum-,Plant Species,1,1
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Overwatering,Plant Condition / Disease,3,2
+Plant Classification and Disease.v3i.tensorflow,test,Unhealthy-Mineral-Deficiency,Plant Condition / Disease,2,1
+Perfect Data Set,unsplit,marigold : Alternaria Leaf Blight,Plant & Disease (Classification Folder),338,338
+Perfect Data Set,unsplit,marigold : Helathy Leaves,Plant & Disease (Classification Folder),273,273
+Perfect Data Set,unsplit,marigold : Pest Damaged,Plant & Disease (Classification Folder),78,78
+Perfect Data Set,unsplit,rose : botrytis blight,Plant & Disease (Classification Folder),558,558
+Perfect Data Set,unsplit,rose : Healthy,Plant & Disease (Classification Folder),1167,1167
+Perfect Data Set,unsplit,rose : Pest Damage,Plant & Disease (Classification Folder),790,790
+Perfect Data Set,unsplit,rose : Rose Mosaic Virus,Plant & Disease (Classification Folder),245,245
+Rose And MArigold Leaf Disease 1,unsplit,marigold : Alternaria Leaf Blight,Plant & Disease (Classification Folder),338,338
+Rose And MArigold Leaf Disease 1,unsplit,marigold : Helathy Leaves,Plant & Disease (Classification Folder),273,273
+Rose And MArigold Leaf Disease 1,unsplit,marigold : Pest Damaged,Plant & Disease (Classification Folder),78,78
+Rose And MArigold Leaf Disease 1,unsplit,rose : botrytis blight,Plant & Disease (Classification Folder),558,558
+Rose And MArigold Leaf Disease 1,unsplit,rose : Healthy,Plant & Disease (Classification Folder),1167,1167
+Rose And MArigold Leaf Disease 1,unsplit,rose : Pest Damage,Plant & Disease (Classification Folder),790,790
+Rose And MArigold Leaf Disease 1,unsplit,rose : Rose Mosaic Virus,Plant & Disease (Classification Folder),245,245
