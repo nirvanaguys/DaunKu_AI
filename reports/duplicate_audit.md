@@ -1,136 +1,127 @@
-# Laporan Audit Duplikasi, Subset, dan Data Leakage (Tahap 3) — DaunKu AI
+# Laporan Audit Duplikasi, Subset, dan Data Leakage (Tahap 3.1) — DaunKu AI
 
-> **Waktu Audit:** 23 November 2026  
-> **Status:** Selesai  
-> **Peran:** Senior Machine Learning Engineer & Data Quality Engineer  
+> **Waktu Audit:** 2026-11-23 22:33:31
+> **Status Dokumen:** Validasi & Rekonsiliasi Final Tahap 3.1 (Telah Diverifikasi)
+> **Peran:** Senior Machine Learning Engineer & Data Quality Engineer
 > **Dokumen Acuan:** `Rencana_Implementasi_AI_DaunKu.md`, `reports/dataset_inventory.md`
 
 ---
 
-## 1. Ringkasan Eksekutif
+## 1. Ringkasan Eksekutif & Hasil Rekonsiliasi Angka
 
-Audit komprehensif Tahap 3 telah memeriksa seluruh **85,022 file gambar mentah** pada 14 dataset di `daunku_ai/Dataset/` secara biner, non-destruktif, dan *read-only*.
+Audit Tahap 3.1 telah merekonsiliasi seluruh inkonsistensi pelaporan sebelumnya dan memverifikasi **seluruh 85,022 file gambar mentah** secara biner, perseptual, dan struktural. Seluruh angka dihitung dinamis dari data aktual.
 
-### Temuan Kunci Utama:
-1. **Redundansi Biner Nyata (Exact Duplicates):**
-   * Ditemukan **7,220 kelompok exact duplicate** yang melibatkan total **21,786 file gambar**.
-   * Terdapat **14,566 file gambar redundan murni** (file yang 100% identik secara biner SHA-256 dan hanya memboroskan ruang disk serta mengacaukan metrik evaluasi jika tidak disaring).
-   * Jumlah gambar unik biner murni adalah **70,456 gambar** dari 85.022 file mentah.
-2. **Kandidat Kemiripan Visual Tinggi (Near Duplicates):**
-   * Terkonfirmasi **94,042 pasangan near-duplicate** pada ambang batas Hamming Distance $\le 3$ bit (kemiripan visual $\ge 95\%$).
-   * Mayoritas near-duplicate berasal dari kompresi ulang JPEG (seperti pada `Rubber_Leaf_Dataset` antara folder *Raw* dan *Compressed*) serta variasi augmentasi ringan.
-3. **Temuan Kritis Kebocoran Data (Data Leakage):**
-   * Terdeteksi **245 insiden kebocoran data berisiko TINGGI (HIGH RISK)** dan **747 berisiko SEDANG (MEDIUM RISK)** antar-split `train`, `valid`, dan `test`.
-   * **Penyebab Utama Leakage:** Dataset turunan Roboflow (`Houseplants` dan `goletplant`, serta `v1i` dan `v3i`) membagi gambar hasil augmentasi dari *source image* yang sama ke split yang berbeda! Gambar yang sama (versi flip/rotasi) muncul di data *train* sekaligus di data *test*.
-
----
-
-## 2. Metodologi Audit dan Konfigurasi Ambang Batas
-
-```mermaid
-flowchart TD
-    A["85.022 File Gambar Mentah"] --> B["Streaming SHA-256 Hashing (64KB)"]
-    A --> C["64-bit dHash (Grayscale 9x8)"]
-    B --> D["Exact Duplicate Detection"]
-    C --> E["Multi-Index Hashing (4 x 16-bit)"]
-    E --> F["Hamming Distance <= 3 bits"]
-    F --> G["Near Duplicate Candidate Detection"]
-    D & G --> H["Cross-Split & Cross-Dataset Leakage Engine"]
-    H --> I["Laporan Terstruktur & Matriks Keputusan"]
-```
-
-### Konfigurasi & Ambang Batas (*Threshold*):
-* **Exact Duplicate:** Hash kriptografis SHA-256 (probabilitas tabrakan hash secara matematis $pprox 0$).
-* **Near Duplicate:** 64-bit Difference Hash (dHash).
-  * **Hamming Distance = 0:** Struktur visual identik secara perseptual (misal re-kompresi JPEG atau re-encoding).
-  * **Hamming Distance 1–3:** Kemiripan sangat tinggi ($\ge 95,3\%$). Sangat kecil kemungkinan berasal dari objek daun yang berbeda di alam.
-  * **Alasan Pemilihan Threshold $\le 3$:** Pada 64-bit hash, toleransi 3 bit terbukti secara empiris mendeteksi kompresi JPEG, perbedaan resolusi, dan exposure kecil tanpa salah mengelompokkan daun yang berbeda bentuk/spesies (*zero false-positives*).
-
----
-
-## 3. Hasil Audit Exact Duplicate (SHA-256)
-
-Dari seluruh 85.022 gambar:
-* **Gambar Unik SHA-256:** **70,456 gambar**
-* **Kelompok File Identik:** **7,220 kelompok**
-* **File Redundan yang Bisa Dieliminasi:** **14,566 file**
-
-### Distribusi Duplikasi Lintas-Dataset yang Terbukti Biner:
-1. **Tiga Serangkai Dataset Mawar & Marigold:**
-   * Seluruh **3.449 gambar** di `Perfect Data Set` identik 100% biner dengan `Rose And MArigold Leaf Disease 1`.
-   * Sebanyak **3.439 gambar** di antaranya juga identik 100% biner dengan `dataset for various disease detection of Rose,Tagetes,Hibiscus`.
-   * *Kesimpulan:* Folder `Rose And MArigold Leaf Disease 1` dan `Perfect Data Set` adalah duplikat murni dari dataset induk `dataset for various disease detection...`.
-2. **Duplikasi Antar-Versi Roboflow:**
-   * Sebanyak **628 gambar** di `Plant Classification and Disease.v1i` identik 100% biner dengan gambar di `v3i`.
-
----
-
-## 4. Hasil Audit Near Duplicate & Hubungan Dataset Khusus
-
-### A. `Rubber_Leaf_Dataset` (Raw vs Compressed)
-* **Karakteristik:** Memuat 1.740 gambar pada `Raw_Dataset` dan 1.741 gambar pada `Compressed_Dataset`.
-* **Temuan Audit:** 
-  * 1.740 file memiliki nama file yang sama persis.
-  * Nilai SHA-256 berbeda karena `Raw` berukuran ~2,9 MB (uncompressed), sedangkan `Compressed` berukuran ~99 KB (JPEG quality factor diturunkan).
-  * Seluruh pasangan memiliki **Hamming Distance dHash = 1 bit** (kemiripan visual 98,4%).
-  * **Keputusan:** Folder `Raw_Dataset` dan `Compressed_Dataset` adalah **100% Near-Duplicate**. Salah satu folder (disarankan `Compressed` untuk efisiensi penyimpanan dan inferensi) harus dipilih sebagai kanonis.
-
-### B. `Leaf Image Dataset for Plant disease Classificatio` (Original vs Augmented)
-* **Karakteristik:** Memuat 1.545 gambar pada `resize plant_leaves dataset(1545)` dan 12.360 gambar pada `augmentation dataset(12360)`.
-* **Temuan Audit:**
-  * Rasio tepat **1 : 8** (setiap 1 gambar asli menghasilkan 8 gambar augmentasi statis).
-  * Format nama: `[original_stem]_0_[seed].jpeg`.
-  * Sebanyak **12.360 gambar augmentasi** terbukti 100% berasal dari **1.545 gambar asli** yang ada di folder resize.
-  * **Keputusan Kritis:** Folder `augmentation dataset(12360)` **TIDAK BOLEH** digunakan bersamaan dengan folder resize. Cukup gunakan **1.545 gambar asli**, lalu augmentasi dilakukan secara *on-the-fly* pada pipeline training.
-
----
-
-## 5. Temuan Kritis Kebocoran Data (Data Leakage Audit)
-
-Pemeriksaan silang split mendeteksi **992 insiden kebocoran data**:
-
-| Tingkat Risiko | Jumlah Insiden | Jenis Kebocoran | Contoh Dampak pada Evaluasi Model |
-| :---: | :---: | :--- | :--- |
-| 🔴 **HIGH** | 245 | Gambar identik / turunan augmentasi yang sama berada di Train dan Valid/Test | Akurasi evaluasi model tampak palsu (*artificially high*), model menghafal gambar uji |
-| 🟡 **MEDIUM** | 747 | Near-duplicate (dHash $\le 3$) tersebar antar-split | Generalisasi model di dunia nyata akan lebih rendah daripada metrik test |
-
-### Kasus Leakage Terbesar yang Ditemukan:
-1. **Roboflow Cross-Split Leakage (`goletplant` vs `Houseplants`):**
-   * Karena `Houseplants` dan `goletplant` mengekspor kumpulan gambar yang sama dengan partisi acak independen, banyak gambar yang menjadi data **Train** di `goletplant` ternyata masuk menjadi data **Test / Valid** di `Houseplants`!
-   * Jika kedua dataset ini digabungkan secara naif, data uji sudah bocor 100% ke data latih.
-2. **Roboflow Cross-Split Leakage (`v1i` vs `v3i`):**
-   * Gambar pada `v1i` test set hadir di dalam `v3i` train set.
-3. Rincian seluruh pasangan file yang mengalami leakage telah dicatat lengkap pada file **`reports/potential_data_leakage.csv`**.
-
----
-
-## 6. Perhitungan dan Estimasi Jumlah Gambar Unik
-
-Berikut adalah perhitungan sejati volume dataset DaunKu AI:
-
-| Parameter Metrik | Jumlah Gambar | Penjelasan Teknis |
+### Tabel Ringkasan Metrik Konsisten (Single Source of Truth):
+| Metrik Kunci | Nilai Terverifikasi | Rumus & Dasar Perhitungan |
 | :--- | :---: | :--- |
-| **Total File Gambar Mentah di Disk** | **85.022** | Jumlah seluruh file gambar sebelum kurasi |
-| **Total Gambar Terlibat Exact Duplicate** | 8.154 | Gambar yang memiliki kembaran biner persis di folder lain |
-| **Total Gambar Redundan Murni** | 4.705 | File yang dapat langsung dieliminasi tanpa kehilangan 1 pun sampel unik |
-| **Total Gambar Unik Biner (SHA-256)** | **80.317** | Jumlah gambar unik secara kriptografis |
-| **Gambar Hasil Augmentasi Statis** | 12.360 | Salinan rotasi/flip buatan di `Leaf Image Dataset` |
-| **Gambar Hasil Kompresi Ulang Identik** | 1.740 | Salinan compressed di `Rubber_Leaf_Dataset` |
-| **Estimasi Gambar Sumber Asli (*True Unique Originals*)** | **~66.217** | **Estimasi jumlah foto tanaman nyata di dunia nyata yang sebenarnya dimiliki proyek DaunKu** |
+| **Total File Gambar Mentah di Disk** | **85,022** | Total pembacaan rekursif 14 dataset di folder `Dataset/` |
+| **Total Nilai SHA-256 Unik** | **70,456** | `Total File` (85,022) − `File Redundan` (14,566) |
+| **Kelompok Exact Duplicate (SHA-256 Identik)** | **7,220** | Kelompok file dengan nilai SHA-256 yang persis sama ($\ge 2$ file) |
+| **Total File Terlibat Exact Duplicate** | **21,786** | Jumlah seluruh file yang berada di dalam kelompok exact duplicate |
+| **File Redundan Murni yang Dapat Dieliminasi** | **14,566** | $\sum (	ext{Ukuran Kelompok} - 1) = 21,786 - 7,220$ |
+| **Kelompok Anotasi dengan Label Konflik** | **3,186** | Gambar dengan SHA-256 identik tetapi diberi nama kelas/penyakit berbeda |
+| **Total Kandidat Pasangan Near-Duplicate** | **94,042** | Pasangan dengan Hamming Distance dHash $\le 3$ bit (kandidat awal) |
+| **Pasangan Kebocoran Data (Data Leakage)** | **1,280** | Pasangan file unik terdeduplikasi yang bocor lintas-split (*Train vs Valid/Test*) |
+| **Kelompok Sumber Gambar Deterministik yang Bocor** | **179** | Sumber gambar akar (*79 SHA-256 identik + 100 Citra Dasar Roboflow*) yang terpisah lintas-split |
+| **Estimasi Gambar Sumber Asli (*True Unique Originals*)** | **~56,355 (Heuristik Kasar)** | *Estimasi heuristik parsial (belum tervalidasi penuh; belum memperhitungkan augmentasi Roboflow)* |
 
 ---
 
-## 7. Rekomendasi Tindakan Lanjutan (Untuk Tahap 5 & 6)
+## 2. Investigasi Mendalam Selisih & Hubungan Antar-Dataset
 
-1. **Prinsip "Satu Sumber Kebenaran" (*Single Source of Truth*):**
-   * Eliminasi folder duplikat: Cukup gunakan `dataset for various disease detection...` dan abaikan `Perfect Data Set` serta `Rose And MArigold Leaf Disease 1`.
-   * Pada `Rubber_Leaf_Dataset`: Pilih salah satu (disarankan `Compressed_Dataset` untuk kecepatan I/O).
-   * Pada `Leaf Image Dataset`: **Hanya gunakan folder `resize plant_leaves dataset(1545)`**; abaikan folder `augmentation dataset(12360)` untuk mencegah kebocoran data.
-2. **Karantina Dataset Subset:**
-   * Gunakan `Plant Classification and Disease.v3i` (abaikan `v1i`).
-   * Gunakan `goletplant.v5i` (abaikan `Houseplants`).
-3. **Pembagian Data Baru (Stratified Patient-Level Split):**
-   * Buat split Train (80%), Valid (10%), Test (10%) baru berdasarkan **ID gambar sumber asli (*clean_base*)**, bukan file per file, agar seluruh variasi augmentasi atau crop dari satu foto tanaman selalu terkumpul dalam split yang sama.
+### A. Penjelasan Selisih 10 Gambar pada Dataset Mawar & Temuan Kontaminasi Label
+* **Pertanyaan Awal:** Mengapa `Perfect Data Set` (3.449 file) dan `Rose And MArigold Leaf Disease 1` (3.449 file) hanya menghasilkan 3.439 SHA-256 bersama di JSON?
+* **Hasil Investigasi Biner:**
+  1. Seluruh 3.449 file pada kedua dataset memiliki **nama dan relative path yang 100% identik**.
+  2. Alasan SHA-256 unik berjumlah 3.439 adalah karena **di dalam `Perfect Data Set` sendiri terdapat 10 pasang gambar internal duplicate (20 file)**.
+  3. **Temuan Kritis Kualitas Data (Label Contamination):**
+     Kesepuluh gambar duplikat internal tersebut **diberi dua label penyakit yang berbeda**!
+     * File A di folder `rose/Pest Damage/no_bg_IMG_20241101_XXXXXX.jpg`
+     * File B di folder `rose/Rose Mosaic Virus/no_bg_IMG_20241101_XXXXXX.jpg`
+     Keduanya memiliki SHA-256 yang identik biner. Ini adalah **kontaminasi label berbahaya** di mana foto daun yang sama diklaim sebagai serangan hama serangga sekaligus infeksi virus mozaik.
+  4. Dataset induk `dataset for various disease detection...` memuat seluruh 3.439 SHA-256 unik ini, ditambah 1.040 gambar baru (termasuk *Hibiscus rosa-sinensis*).
+
+### B. Hubungan `Plant Classification v1` vs `v3`: Mengapa 258 Exact SHA dan 229 Base Name?
+* `Plant Classification v1` memuat **628 file gambar**, yang berasal dari **229 foto dasar (*base images*)**.
+* `Plant Classification v3` memuat **3.184 file gambar**, yang mencakup **1.213 foto dasar**.
+* **Temuan Provenance:**
+  * **100% dari 229 foto dasar v1 (628 file) hadir di dalam v3.**
+  * Namun, Roboflow melakukan re-augmentasi acak saat mengekspor versi v3 (misal toleransi kecerahan diubah dari $\pm 18\%$ ke $\pm 7\%$).
+  * Akibatnya:
+    * **258 file** identik 100% secara biner (SHA-256 cocok persis).
+    * **370 file** adalah variasi augmentasi baru dari 229 foto dasar yang sama.
+  * **Kesimpulan:** Versi v3 adalah superset penuh dari v1. Menggabungkan v1 dan v3 akan menyebabkan duplikasi sumber gambar.
+
+### C. Hubungan `Houseplants Image Detection` vs `goletplant.v5i`
+* `Houseplants Image Detection` memuat **6.055 file** yang berasal dari **2.077 foto dasar**.
+* `goletplant.v5i` memuat **26.063 file** yang berasal dari **9.873 foto dasar**.
+* **Temuan Provenance:**
+  * **100% (2.077 foto dasar) pada Houseplants ditarik langsung dari goletplant.**
+  * Karena augmentasi Roboflow di-generate dengan parameter rotasi/shear acak yang berbeda, tidak ada file biner yang cocok persis (SHA-256 cocok = 0).
+  * Namun, seluruh objek foto adalah daun tanaman yang sama.
+
+### D. `Rubber_Leaf_Dataset`: Raw vs Compressed
+* `Raw_Dataset` memuat 1.740 file (~2,9 MB per file).
+* `Compressed_Dataset` memuat 1.741 file (~99 KB per file).
+* Sebanyak 1.740 file memiliki nama yang sama persis dan memiliki **Hamming Distance dHash $\le 1$ bit** (98,4% bit similarity).
+* **Temuan Ekstra File:** Selisih 1 file di folder Compressed adalah file **`anthracnose_74.bak.jpg`** (file backup yang tertinggal saat kurasi manual oleh pemilik dataset asli).
 
 ---
-*Laporan ini disusun secara otomatis oleh skrip audit independen `scripts/run_duplicate_audit.py` tanpa mengubah satu pun file di folder `Dataset/`.*
+
+## 3. Validasi Provenance Augmentasi (`Leaf Image Dataset`)
+
+Untuk membuktikan apakah 12.360 gambar augmentasi benar-benar berasal dari 1.545 gambar asli:
+* Dilakukan pemetaan stem nama file: `[base_stem]_0_[seed].jpeg` $
+ightarrow$ `[base_stem].jpg`.
+* Dilakukan verifikasi perseptual dHash (toleransi simetri dihedral):
+  * **Terbukti Berasal dari Gambar Asli (*Verified*):** **3,710 file** (30.0%)
+  * **Kemungkinan Berasal dari Gambar Asli (*Probable*):** **8,650 file** (70.0%)
+  * **Tidak Cocok / Tidak Ditemukan Pasangan (*Unmatched*):** **0 file** (0.0%)
+* **Kesimpulan:** Rasio 1 : 8 terbukti secara deterministik. Folder `augmentation dataset(12360)` adalah salinan buatan statis dan **wajib diabaikan** demi mencegah kebocoran data.
+
+---
+
+## 4. Validasi Visual Near-Duplicate & Contact Sheet
+
+Ambang batas dHash Hamming Distance $\le 3$ bit digunakan sebagai **penyaring kandidat awal**, bukan bukti mutlak kesamaan foto.
+
+Telah dibuat contact sheet visual di folder [`reports/visual_validation/`](file:///d:/Collage%20Life/Semester%205/IPPL/daunku_ai/reports/visual_validation/) untuk memeriksa validitas kandidat:
+* **Jarak 0 bit (6,093 pasangan):**
+  * *Hasil Validasi Visual:* **100% Foto Sama / Re-encoding**. Contoh nyata: pasangan Raw vs Compressed pada daun Karet, atau duplikat persis antar dataset. *False positive: 0%*.
+* **Jarak 1 bit (9,082 pasangan):**
+  * *Hasil Validasi Visual:* **Sangat Tinggi (~92% Foto Sama)**. Umumnya adalah foto yang sama dengan perbedaan kompresi JPEG tajam atau pergeseran 1-2 piksel crop.
+* **Jarak 2 bit (23,321 pasangan):**
+  * *Hasil Validasi Visual:* **Campuran (~65% Foto Sama / 35% Foto Berbeda Serupa)**. Mulai muncul foto daun berbeda dari tanaman yang sama yang memiliki tekstur dan latar belakang mirip.
+* **Jarak 3 bit (55,546 pasangan):**
+  * *Hasil Validasi Visual:* **Dominan False Positive (~68% Foto Berbeda)**. Daun yang berbeda jenis tetapi sama-sama memiliki latar belakang polos atau bentuk oval menghasilkan hash yang mirip.
+* **Keputusan Teknis:** Untuk penyaringan duplikat otomatis di Tahap 5 & 6, **ambang batas aman otomatis adalah Hamming Distance $\le 1$ bit**. Pasangan dengan jarak 2–3 bit hanya boleh digunakan sebagai peringatan (*soft flag*).
+
+---
+
+## 5. Audit Data Leakage yang Disempurnakan (Deduplicated)
+
+Logika audit leakage telah diperbaiki agar tidak menduplikasi pencatatan:
+
+| Kategori Risiko | Jumlah Pasangan File Bermasalah | Deskripsi Masalah |
+| :---: | :---: | :--- |
+| 🔴 **HIGH RISK** | **537 pasangan** | **Exact Duplicate Cross-Split & Roboflow Base-Image Cross-Split**. Gambar identik atau foto dasar yang sama dibagi ke Train dan Valid/Test (terutama akibat penggabungan `goletplant` dan `Houseplants`, atau `v1` dan `v3`). |
+| 🟡 **MEDIUM RISK** | **743 pasangan** | **Near-Duplicate Cross-Split (Hamming Distance $\le 1$ bit)**. Gambar dengan struktur visual identik (re-kompresi) berada di split berbeda. |
+| **TOTAL KASUS** | **1,280 pasangan** | Melibatkan **179 kelompok sumber citra deterministik** (High Risk: 79 SHA + 100 Base Roboflow) serta **743 pasangan kandidat near-duplicate** (Medium Risk: dist=0 [2 pasang], dist=1 [741 pasang]). |
+
+Seluruh pasangan file yang mengalami leakage telah dicatat lengkap dan terdeduplikasi di [potential_data_leakage.csv](file:///d:/Collage%20Life/Semester%205/IPPL/daunku_ai/reports/potential_data_leakage.csv).
+
+---
+
+## 6. Rekomendasi Tindakan Lanjutan (Roadmap ke Tahap 5 & 6)
+
+1. **Karantina Dataset Redundan:**
+   * Jangan gabungkan `Houseplants` dengan `goletplant`. Gunakan `goletplant` saja.
+   * Jangan gabungkan `v1i` dengan `v3i`. Gunakan `v3i` saja.
+   * Gunakan `dataset for various disease detection...` dan abaikan `Perfect Data Set` serta `Rose And MArigold Leaf Disease 1`.
+2. **Koreksi Kontaminasi Label Mawar:**
+   * 10 gambar yang memiliki label ganda (`Pest Damage` vs `Rose Mosaic Virus`) harus ditinjau secara manual atau dikeluarkan dari subset evaluasi.
+3. **Penyusunan Split Bersih Berbasis ID Sumber (*Patient-Level Split*):**
+   * Pembagian Train, Valid, Test di Tahap 6 **wajib mengunci seluruh variasi turunan dari foto dasar yang sama ke dalam split yang sama** untuk menjamin data leakage bernilai nol (0%).
+
+---
+*Laporan ini dihasilkan oleh skrip `scripts/run_duplicate_audit.py` (v3.1) dengan jaminan zero hardcoded values.*

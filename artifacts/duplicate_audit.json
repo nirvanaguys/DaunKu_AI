@@ -1,99 +1,105 @@
 {
   "metadata": {
-    "timestamp": "2026-11-23 20:59:49",
+    "timestamp": "2026-11-23 22:33:31",
     "total_raw_images": 85022,
     "total_datasets": 14,
-    "near_dup_threshold_bits": 3
+    "near_dup_threshold_bits": 3,
+    "audit_version": "3.1 (Validated & Deduplicated)"
   },
   "exact_duplicates": {
+    "total_raw_images": 85022,
     "total_exact_duplicate_files": 21786,
     "total_exact_duplicate_groups": 7220,
     "unique_sha256_count": 70456,
-    "redundant_file_count": 14566
+    "redundant_file_count": 14566,
+    "conflicting_label_groups_count": 3186
   },
   "near_duplicates": {
-    "total_confirmed_pairs": 94042,
-    "threshold_used": 3
+    "total_candidate_pairs": 94042,
+    "threshold_used": 3,
+    "distribution_by_distance": {
+      "0": 6093,
+      "1": 9082,
+      "2": 23321,
+      "3": 55546
+    }
   },
   "data_leakage": {
-    "total_leakage_instances": 992,
-    "high_risk": 245,
-    "medium_risk": 747,
-    "low_risk": 0
+    "total_unique_leakage_pairs": 1280,
+    "high_risk_pairs": 537,
+    "medium_risk_pairs": 743,
+    "low_risk_pairs": 0,
+    "deterministic_leakage_source_groups": {
+      "total": 179,
+      "exact_sha256_cross_split_groups": 79,
+      "roboflow_base_stem_cross_split_groups": 100,
+      "description": "Kelompok sumber foto asli yang terbukti identik biner atau berasal dari foto dasar Roboflow yang sama namun tersebar di split berbeda."
+    },
+    "near_duplicate_cross_split_candidate_pairs": {
+      "total_pairs": 743,
+      "distribution_by_dhash_distance_category": {
+        "dist_0": 2,
+        "dist_1": 741
+      },
+      "critical_note": "Kategori jarak dHash adalah bucket kedekatan hash perceptual, BUKAN kelompok sumber gambar tanaman."
+    }
   },
-  "dataset_relationships": {
-    "cross_dataset_exact_matches": [
-      {
-        "dataset_1": "Houseplants Image Detection.v1i.tensorflow",
-        "dataset_2": "Plant Classification and Disease.v3i.tensorflow",
-        "exact_sha_shared": 0,
-        "base_name_shared": 235
-      },
-      {
-        "dataset_1": "Houseplants Image Detection.v1i.tensorflow",
-        "dataset_2": "goletplant.v5i.tensorflow",
-        "exact_sha_shared": 0,
-        "base_name_shared": 2077
-      },
-      {
-        "dataset_1": "Klasifikasi Penyakit Daun Kopi.v4i.tensorflow",
-        "dataset_2": "Plant Classification and Disease.v1i.tensorflow",
-        "exact_sha_shared": 0,
-        "base_name_shared": 9
-      },
-      {
-        "dataset_1": "Klasifikasi Penyakit Daun Kopi.v4i.tensorflow",
-        "dataset_2": "Plant Classification and Disease.v3i.tensorflow",
-        "exact_sha_shared": 0,
-        "base_name_shared": 14
-      },
-      {
-        "dataset_1": "Perfect Data Set",
-        "dataset_2": "Rose And MArigold Leaf Disease 1",
-        "exact_sha_shared": 3439,
-        "base_name_shared": 3439
-      },
-      {
-        "dataset_1": "Perfect Data Set",
-        "dataset_2": "dataset for various disease detection of Rose\u00a0,Tagetes erecta  Hibiscus\u00a0rosa-sinensis",
-        "exact_sha_shared": 3439,
-        "base_name_shared": 3439
-      },
-      {
-        "dataset_1": "Plant Classification and Disease.v1i.tensorflow",
-        "dataset_2": "Plant Classification and Disease.v3i.tensorflow",
-        "exact_sha_shared": 256,
-        "base_name_shared": 229
-      },
-      {
-        "dataset_1": "Plant Classification and Disease.v3i.tensorflow",
-        "dataset_2": "goletplant.v5i.tensorflow",
-        "exact_sha_shared": 0,
-        "base_name_shared": 235
-      },
-      {
-        "dataset_1": "Rose And MArigold Leaf Disease 1",
-        "dataset_2": "dataset for various disease detection of Rose\u00a0,Tagetes erecta  Hibiscus\u00a0rosa-sinensis",
-        "exact_sha_shared": 3439,
-        "base_name_shared": 3439
-      }
-    ],
+  "verified_dataset_relationships": {
+    "rose_marigold_cluster": {
+      "perfect_data_set_total": 3449,
+      "rose_and_marigold_total": 3449,
+      "various_disease_detection_total": 4479,
+      "exact_relative_path_match_p1_p2": 3449,
+      "shared_unique_sha256_p1_p2": 3439,
+      "shared_unique_sha256_p1_vds": 3439,
+      "internal_duplicate_pairs_in_p1": 10,
+      "conflicting_labels_detected": "rose/Pest Damage vs rose/Rose Mosaic Virus"
+    },
+    "plant_classification_v1_v3": {
+      "v1_total_files": 628,
+      "v3_total_files": 3184,
+      "v1_unique_bases": 229,
+      "v3_unique_bases": 1213,
+      "shared_base_images": 229,
+      "base_coverage_pct": 100.0,
+      "exact_sha256_files_shared": 256,
+      "regenerated_augmentations_count": 372
+    },
+    "houseplants_vs_goletplant": {
+      "houseplants_total_files": 6055,
+      "goletplant_total_files": 26063,
+      "houseplants_unique_bases": 2077,
+      "shared_base_images": 2077,
+      "base_coverage_pct": 100.0,
+      "exact_sha256_matches": 0,
+      "relationship_type": "Derived independent Roboflow augmentation exports from identical 2,077 base photos"
+    },
     "leaf_image_dataset": {
       "original_images": 1545,
       "augmented_images": 12360,
       "ratio": 8.0,
-      "matched_provenance_count": 12360
+      "provenance_breakdown": {
+        "verified": 3710,
+        "probable": 8650,
+        "unmatched": 0,
+        "unverified": 0
+      }
     },
     "rubber_leaf_dataset": {
       "raw_images": 1740,
       "compressed_images": 1741,
-      "filename_matches": 1740,
-      "exact_sha_matches": 0
+      "matched_filenames": 1740,
+      "exact_sha_matches": 0,
+      "near_dup_hamming_le1": 1653,
+      "extra_file_in_compressed": "anthracnose_74.bak.jpg (Backup File)"
     }
   },
   "unique_image_estimates": {
     "total_raw_files": 85022,
-    "exact_unique_sha256": 70456,
-    "estimated_original_source_images": 58096
+    "unique_sha256_files": 70456,
+    "leaf_image_static_augmentations": 12360,
+    "rubber_compressed_duplicates": 1741,
+    "conservative_true_unique_images_estimate": 56355,
+    "note": "Estimasi kasar heuristik. Belum memperhitungkan ribuan augmentasi Roboflow di goletplant, v3, dll. Tidak dapat diklaim sebagai angka foto asli definitif."
   }
 }
