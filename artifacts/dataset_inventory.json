@@ -24,18 +24,6 @@
     "Corrupted": 0
   },
   {
-    "Dataset": "Comparative Morphological and Phytochemical",
-    "Task": "Empty / None",
-    "Format": "Empty Directory",
-    "Total Images": 0,
-    "Train Images": 0,
-    "Valid Images": 0,
-    "Test Images": 0,
-    "Unsplit Images": 0,
-    "Size (MB)": 0.0,
-    "Corrupted": 0
-  },
-  {
     "Dataset": "Houseplants Image Detection.v1i.tensorflow",
     "Task": "Object Detection",
     "Format": "TensorFlow Object Detection (_annotations.csv)",
@@ -61,14 +49,14 @@
   },
   {
     "Dataset": "Leaf Image Dataset for Plant disease Classificatio",
-    "Task": "Image Classification (Archived)",
-    "Format": "ZIP Archive (Unextracted)",
-    "Total Images": 0,
+    "Task": "Image Classification",
+    "Format": "Directory Structure (Folder per Class)",
+    "Total Images": 13905,
     "Train Images": 0,
     "Valid Images": 0,
     "Test Images": 0,
-    "Unsplit Images": 0,
-    "Size (MB)": 83.55,
+    "Unsplit Images": 13905,
+    "Size (MB)": 165.24,
     "Corrupted": 0
   },
   {

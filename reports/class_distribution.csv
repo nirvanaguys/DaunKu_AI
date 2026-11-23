@@ -45,6 +45,64 @@ Houseplants Image Detection.v1i.tensorflow,test,CrassulaPortulaca,Plant Species,
 Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,leaf,Leaf Localization Only,4130,2740
 Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,leaf,Leaf Localization Only,394,257
 Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,leaf,Leaf Localization Only,219,142
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Yard long bean(182) / Cercospora Leaf Spot(55),Classification Folder,55,55
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Yard long bean(182) / Healthy Leaf(31),Classification Folder,31,31
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Yard long bean(182) / Leaf Curl(48),Classification Folder,48,48
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Yard long bean(182) / Yelllow Mosaic virus(48),Classification Folder,48,48
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Snake gourd(153) / Anthracnose (Colletotrichum spp.)(31),Classification Folder,31,31
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Snake gourd(153) / Healthy Leaf(33),Classification Folder,33,33
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Snake gourd(153) / Leaf Curl(54),Classification Folder,54,54
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Snake gourd(153) / Yellow Mosaic Virus(35),Classification Folder,35,35
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Sesame(222) / Bacterial leaf spot (Pseudomonas sesami)(36),Classification Folder,36,36
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Sesame(222) / caterpillars(Phaseolus vulgaris)(65),Classification Folder,65,65
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Sesame(222) / Healthy leaf(56),Classification Folder,56,56
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Sesame(222) / Leaf curl(38),Classification Folder,38,38
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Sesame(222) / Sesame yellow mosaic virus (SYMV)(27),Classification Folder,27,27
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Mung bean(135) / caterpillars(Phaseolus vulgaris)(37),Classification Folder,37,37
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Mung bean(135) / Healty leaf(36),Classification Folder,36,36
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Mung bean(135) / Leaf curll(50),Classification Folder,50,50
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Mung bean(135) / Mungbean Yellow Mosaic Virus (MYMV)(12),Classification Folder,12,12
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Ladies finger(252) / Cercospora Leaf Spot(41),Classification Folder,41,41
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Ladies finger(252) / Healty leaf(46),Classification Folder,46,46
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Ladies finger(252) / Leaf curl(68),Classification Folder,68,68
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Ladies finger(252) / Yellow Vein Mosaic Virus (YVMV)(97),Classification Folder,97,97
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Brinjal(298) / Cercospora Leaf Spot(110),Classification Folder,110,110
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Brinjal(298) / Early blight(81),Classification Folder,81,81
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Brinjal(298) / Healthy leaf(49),Classification Folder,49,49
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Brinjal(298) / Leaf curl(58),Classification Folder,58,58
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Bitter gourd(303) / bunchy top of bitter gourd(12),Classification Folder,12,12
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Bitter gourd(303) / Downy Mildew(118),Classification Folder,118,118
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Bitter gourd(303) / Healthy leaf(41),Classification Folder,41,41
+Leaf Image Dataset for Plant disease Classificatio,unsplit,resize plant_leaves dataset(1545) / Bitter gourd(303) / Leaf curl (Mosaic virus)(132),Classification Folder,132,132
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Yard long bean(1456) / Cercospora Leaf Spot(440),Classification Folder,440,440
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Yard long bean(1456) / Healthy Leaf(248),Classification Folder,248,248
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Yard long bean(1456) / Leaf Curl(384),Classification Folder,384,384
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Yard long bean(1456) / Yelllow Mosaic virus(384),Classification Folder,384,384
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Snake gourd(1224) / Anthracnose (Colletotrichum spp.)(248),Classification Folder,248,248
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Snake gourd(1224) / Healthy Leaf(264),Classification Folder,264,264
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Snake gourd(1224) / Leaf Curl(432),Classification Folder,432,432
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Snake gourd(1224) / Yellow Mosaic Virus(280),Classification Folder,280,280
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / sesame(1776) / Bacterial leaf spot (Pseudomonas sesami)(288),Classification Folder,288,288
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / sesame(1776) / caterpillars(Phaseolus vulgaris)(520),Classification Folder,520,520
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / sesame(1776) / Healthy leaf(448),Classification Folder,448,448
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / sesame(1776) / Leaf curl(304),Classification Folder,304,304
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / sesame(1776) / Sesame yellow mosaic virus (SYMV)(216),Classification Folder,216,216
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Mung bean(1080) / caterpillars(Phaseolus vulgaris)(296),Classification Folder,296,296
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Mung bean(1080) / Healty leaf(288),Classification Folder,288,288
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Mung bean(1080) / Leaf curl(400),Classification Folder,400,400
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Mung bean(1080) / Mungbean Yellow Mosaic Virus (MYMV)(96),Classification Folder,96,96
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Ladies Finger(2016) / Cercospora Leaf Spot(328),Classification Folder,328,328
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Ladies Finger(2016) / Healty leaf(368),Classification Folder,368,368
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Ladies Finger(2016) / Leaf curl(544),Classification Folder,544,544
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Ladies Finger(2016) / Yellow Vein Mosaic Virus (YVMV)(776),Classification Folder,776,776
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Brinjal(2384) / Cercospora Leaf Spot(880),Classification Folder,880,880
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Brinjal(2384) / Early blight(648),Classification Folder,648,648
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Brinjal(2384) / Healthy leaf(392),Classification Folder,392,392
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Brinjal(2384) / Leaf curl(464),Classification Folder,464,464
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Bitter gourd(2424) / Bunchy top of bitter gourd(96),Classification Folder,96,96
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Bitter gourd(2424) / Downy mildew(944),Classification Folder,944,944
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Bitter gourd(2424) / Healthy leaf(328),Classification Folder,328,328
+Leaf Image Dataset for Plant disease Classificatio,unsplit,augmentation dataset(12360) / Bitter gourd(2424) / Leaf curl (Mosaic virus)(1056),Classification Folder,1056,1056
 Perfect Data Set,unsplit,rose / botrytis blight,Classification Folder,558,558
 Perfect Data Set,unsplit,rose / Healthy,Classification Folder,1167,1167
 Perfect Data Set,unsplit,rose / Pest Damage,Classification Folder,790,790

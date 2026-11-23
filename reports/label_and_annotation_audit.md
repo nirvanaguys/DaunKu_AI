@@ -9,7 +9,7 @@
 
 ## 1. Ringkasan Temuan Audit Kualitas Anotasi
 
-Total terdeteksi **946 catatan kualitas/anomali** di seluruh dataset:
+Total terdeteksi **944 catatan kualitas/anomali** di seluruh dataset:
 
 | Tipe Masalah / Anomali | Jumlah Kejadian | Penjelasan & Dampak |
 | :--- | :---: | :--- |
@@ -17,7 +17,7 @@ Total terdeteksi **946 catatan kualitas/anomali** di seluruh dataset:
 | **Gambar Yatim (*Orphaned Images*)** | 485 | Gambar yang ada di disk tetapi tidak tercatat di file anotasi (354 di v3i, 54 di goletplant). |
 | **Dataset Kopi Hanya Memiliki Label `'leaf'`** | 1 dataset | Dataset `Klasifikasi Penyakit Daun Kopi` hanya memiliki label kelas `'leaf'` (lokalisasi daun saja, **tanpa label penyakit sama sekali**). |
 | **Metadata Nama Kelas Hilang** | 1 dataset | Dataset `Yellow Disease` menggunakan label numerik `0` dan `1` tanpa file mapping nama kelas (*data.yaml* tidak ada). |
-| **Dataset Kosong / Belum Diekstrak** | 2 dataset | Folder kosong (`Comparative...`) dan arsip ZIP belum diekstrak (`Leaf Image...`). |
+| **Dataset Kosong / Belum Diekstrak** | 0 dataset | Folder kosong (`Comparative...`) dan arsip ZIP belum diekstrak (`Leaf Image...`). |
 | **Typo pada Nama Kelas Folder** | 4 direktori | `Helathy Leaves` (Marigold), `Heaalthy Leaf` (Tagetes), `Cholorosis` (Jasmine). |
 | **Bias Latar Belakang Dihapus (*no_bg*)** | 14 kelas | Seluruh foto Mawar menggunakan daun berlatar belakang terpotong sintetis. |
 | **Redundansi Raw vs Compressed** | 1 dataset | `Rubber_Leaf_Dataset` menyalin seluruh data dua kali (`Compressed_Dataset` dan `Raw_Dataset`). |
