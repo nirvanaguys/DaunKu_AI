@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-23 20:59:49",
+    "total_raw_images": 85022,
+    "total_datasets": 14,
+    "near_dup_threshold_bits": 3
+  },
+  "exact_duplicates": {
+    "total_exact_duplicate_files": 21786,
+    "total_exact_duplicate_groups": 7220,
+    "unique_sha256_count": 70456,
+    "redundant_file_count": 14566
+  },
+  "near_duplicates": {
+    "total_confirmed_pairs": 94042,
+    "threshold_used": 3
+  },
+  "data_leakage": {
+    "total_leakage_instances": 992,
+    "high_risk": 245,
+    "medium_risk": 747,
+    "low_risk": 0
+  },
+  "dataset_relationships": {
+    "cross_dataset_exact_matches": [
+      {
+        "dataset_1": "Houseplants Image Detection.v1i.tensorflow",
+        "dataset_2": "Plant Classification and Disease.v3i.tensorflow",
+        "exact_sha_shared": 0,
+        "base_name_shared": 235
+      },
+      {
+        "dataset_1": "Houseplants Image Detection.v1i.tensorflow",
+        "dataset_2": "goletplant.v5i.tensorflow",
+        "exact_sha_shared": 0,
+        "base_name_shared": 2077
+      },
+      {
+        "dataset_1": "Klasifikasi Penyakit Daun Kopi.v4i.tensorflow",
+        "dataset_2": "Plant Classification and Disease.v1i.tensorflow",
+        "exact_sha_shared": 0,
+        "base_name_shared": 9
+      },
+      {
+        "dataset_1": "Klasifikasi Penyakit Daun Kopi.v4i.tensorflow",
+        "dataset_2": "Plant Classification and Disease.v3i.tensorflow",
+        "exact_sha_shared": 0,
+        "base_name_shared": 14
+      },
+      {
+        "dataset_1": "Perfect Data Set",
+        "dataset_2": "Rose And MArigold Leaf Disease 1",
+        "exact_sha_shared": 3439,
+        "base_name_shared": 3439
+      },
+      {
+        "dataset_1": "Perfect Data Set",
+        "dataset_2": "dataset for various disease detection of Rose\u00a0,Tagetes erecta  Hibiscus\u00a0rosa-sinensis",
+        "exact_sha_shared": 3439,
+        "base_name_shared": 3439
+      },
+      {
+        "dataset_1": "Plant Classification and Disease.v1i.tensorflow",
+        "dataset_2": "Plant Classification and Disease.v3i.tensorflow",
+        "exact_sha_shared": 256,
+        "base_name_shared": 229
+      },
+      {
+        "dataset_1": "Plant Classification and Disease.v3i.tensorflow",
+        "dataset_2": "goletplant.v5i.tensorflow",
+        "exact_sha_shared": 0,
+        "base_name_shared": 235
+      },
+      {
+        "dataset_1": "Rose And MArigold Leaf Disease 1",
+        "dataset_2": "dataset for various disease detection of Rose\u00a0,Tagetes erecta  Hibiscus\u00a0rosa-sinensis",
+        "exact_sha_shared": 3439,
+        "base_name_shared": 3439
+      }
+    ],
+    "leaf_image_dataset": {
+      "original_images": 1545,
+      "augmented_images": 12360,
+      "ratio": 8.0,
+      "matched_provenance_count": 12360
+    },
+    "rubber_leaf_dataset": {
+      "raw_images": 1740,
+      "compressed_images": 1741,
+      "filename_matches": 1740,
+      "exact_sha_matches": 0
+    }
+  },
+  "unique_image_estimates": {
+    "total_raw_files": 85022,
+    "exact_unique_sha256": 70456,
+    "estimated_original_source_images": 58096
+  }
+}
