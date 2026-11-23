@@ -1,4 +1,457 @@
 Dataset,Split,Filename,Row,Issue Type,Details
+A dataset of Yellow Disease in Horticultural Plant,unsplit,data.yaml / classes.txt,-,Missing Class Name Metadata,Anotasi hanya berisi numeric class ID ('0' dan '1') tanpa label map / data.yaml
+Arabian Jasmine Leaf Condition Dataset (AJLCD-2025,unsplit,Arabian Jasmine Leaf Condition Dataset (AJLCD-2025 / AJLCD-2025 / Cholorosis,-,Typographical Error in Class Name,Salah eja 'Cholorosis' (seharusnya 'Chlorosis')
+Comparative Morphological and Phytochemical,-,-,-,Empty Dataset Directory,"Folder kosong, tidak memuat file apa pun."
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-148_JPG.rf.772bd638c97c52ce7330208d614af525.jpg,3433,Invalid Bounding Box (xmin >= xmax),"xmin=269.0, xmax=269.0"
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-13_jpg.rf.db58382f61fef6bbb49a7c6a030ea452.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_110257-576x768_jpg.rf.dcef31bd60202a2c828c3a4e88f430f3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,294_jpg.rf.7105a9925849fa202f926a9ae9ef0058.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-155_jpg.rf.aa63d87d035a49092c0b308c5daa686d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-14_jpg.rf.0e4badeb9211d446b7607b87753530e5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-17_jpg.rf.544a95a45f4d97619de1e89a50c3e6f0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520105421-432x768_jpg.rf.27289242ad511fa0c1570d60bd2c4393.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520102533-1024x768_jpg.rf.33b0356b58cd9eb5424a1b8d3e4d1aaa.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,red-spider-64_jpg.rf.914b0c98b3ad358dfa254ffbed0c7e91.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-17_jpg.rf.b707806ed8c0f876b7ba1bbfff3e4e94.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520105421-432x768_jpg.rf.c7095d2975cda736938c616fab146413.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-14_jpg.rf.4e020d9031f30d942dc46c22258becc2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-155_jpg.rf.d914b354f2f224185b12ebafaad067bc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-13_jpg.rf.f9dc649ed2b32371709ee5b8c2d17f66.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-142_jpg.rf.bbfaaccc03da53ffa948c1cdbb3cbad5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,1431_jpg.rf.cd494199444e7101b3e45e38e6df1ae0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_105922-576x768_jpg.rf.b5a3acf394d701e7b2fea961eab2013e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,342_jpg.rf.dff1c93fdd328281ed2757a6de2e1a6a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_110257-576x768_jpg.rf.8ae71a1fbced1254695cedb39b51b654.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,red-spider-64_jpg.rf.9128d1808e4e622f38874ed0b1a6ab59.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-160_JPG.rf.71c4de9a53adf0508d5943de0ca40ed3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,294_jpg.rf.22c99a5877cf69ffb0966ad4f8fc8951.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_110257-576x768_jpg.rf.6b76f61b8747be18eb1deef6a2d7dc5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520102533-1024x768_jpg.rf.35b37f3b26a370ba49834d6e93062050.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,482_jpg.rf.4438d4b2067ac2e348b9ad649557c390.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG_20230320_111230-432x768_jpg.rf.2886d9f1b3346d52c9a4625bc56b903b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520102533-1024x768_jpg.rf.7a251bceda00578d1d5e342e62f4fa31.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-1_jpg.rf.a9f53872434b4162881783cb3c2e6386.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG_20230320_111230-432x768_jpg.rf.a3ef1b55a6f1a05c6d5cc407643a1c3d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,342_jpg.rf.f27c3c40793db6fb2077349574d55b66.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,1431_jpg.rf.8bba93a18894917a2cf5e19137d0feb4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-142_jpg.rf.fa712a05bf402524240ea3d06dd5638f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520104904-432x768_jpg.rf.1bd80ef72346003adff108c75a0602be.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_110057-576x768_jpg.rf.e83776278d3908d893cce0d0c9ae80c6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,342_jpg.rf.17bc3375763920675f4496c458012fee.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,1433_jpg.rf.6760d25ee7473d8f4fb7503b354aab29.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-100_jpg.rf.20e1f65f9e5ba12f5364501bbc7e5999.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,482_jpg.rf.8988a817ccd19a468bc5822e83dccd17.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,294_jpg.rf.e0cf3e22df927a2ef93e41b40889f553.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_110057-576x768_jpg.rf.f61a9f8e449d99ce6c6ae87ec10ed16b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-14_jpg.rf.7fa4e492920b04cce3da3cdfd6859973.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-17_jpg.rf.8f7e27a14d662d4e658198f0494ce5f5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520105220-576x768_jpg.rf.ae901fef04a7b8e4b1b658bca228d8f5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520104904-432x768_jpg.rf.7b123857f61f113f0b7789138681f348.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520105220-576x768_jpg.rf.efe76bd9f317fea8bba4034a33ed7cc3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520105421-432x768_jpg.rf.35d3e2cd187c1672831e7a33fb37cb27.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-1_jpg.rf.a71fa6d77bb8f5a73d7d1e21698fabc0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,1433_jpg.rf.6933372b241b22e457fd0283fbafcfcf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,1433_jpg.rf.2a0c771cffa8d61db7c24e514986ffb8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_105922-576x768_jpg.rf.5fc24f458a1657753a1bbcc60eba8f8c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-160_JPG.rf.c251d1b1f6e16dcd09dfd56bdc1d45ec.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-100_jpg.rf.02432e888001575a73ac92b35d626efe.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-142_jpg.rf.0c9cbcf98f97e0361953d2c07f344fe9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520104904-432x768_jpg.rf.33725e00b82f5c520b78da1238d1ffa5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-155_jpg.rf.9aeac0aaf267d42892d5ca9af322c19a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,1431_jpg.rf.edf278e0a80ef6656d89000e64498045.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG20230520105220-576x768_jpg.rf.f08cc3866207ff5e8190f486aefa7d82.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,cercospora-160_JPG.rf.db678389122c4ca69786e4ef3228a2bc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-100_jpg.rf.0720256b741b4bc602eefffa14cce695.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,sehat-1_jpg.rf.950576f2eb8afa813a689f7fbb590a10.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_105922-576x768_jpg.rf.ab9e20cf9222a965352874f1149e1deb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,IMG_20230320_111230-432x768_jpg.rf.37be5e8c14024267d063d7d3807fe8f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,TimePhoto_20230520_110057-576x768_jpg.rf.a31165b8d9f4da3c5963e499ba2ebabc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,train,red-spider-64_jpg.rf.f327fc781107c49c71fbcfa1b2c4cfb1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,IMG20230520102948-576x768_jpg.rf.65afdd48436fb9c5a3049c2b85372e7e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,cercospora-46_JPG.rf.6d94b7baee7cb34a8253bf71612f1041.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,274_jpg.rf.f0941310027973e18832e08e01e56b1a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,sehat-14_jpg.rf.d5b799947686f30055d8997386a2448a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,cercospora-146_JPG.rf.3aae40854629b45ecc49f51ea7d8cf4f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,valid,red-spider-51_jpg.rf.ffb278d3440cea5ca3c66630fb9cd664.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,IMG20220921170330_01_600x600_jpg.rf.075e7f4408f621831fe3d2e93e7de7a8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,IMG20220921173043_600x600_jpg.rf.b3af15b9b5ae382f66a7140a8c4d6099.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,cercospora-147_JPG.rf.e22531f6ae970a08a94bf536204ea517.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,1415_jpg.rf.55bb8e6bf4df78401962bce4383129d5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,TimePhoto_20230520_110242-576x768_jpg.rf.40a7a9f11848987a817b3f8e1b4ea6e0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,IMG20230520104931-432x768_jpg.rf.09d9f6b9083fb3a38cc0573d4e227fe9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,test,sehat-412_jpg.rf.44b374a7440cd2d6b32cfbd8258bc787.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Leaf Image Dataset for Plant disease Classificatio,-,"Augmentation dataset(12360).zip, Resize plant_leaves dataset(1545).zip",-,Unextracted Compressed Archive,"Dataset masih berupa arsip ZIP (Augmentation dataset(12360).zip, Resize plant_leaves dataset(1545).zip) dan belum diekstrak."
+Perfect Data Set,unsplit,rose / botrytis blight,-,Synthetic Background Removal Bias,558 dari 558 gambar memiliki latar belakang terhapus (no_bg_*)
+Perfect Data Set,unsplit,rose / Healthy,-,Synthetic Background Removal Bias,1167 dari 1167 gambar memiliki latar belakang terhapus (no_bg_*)
+Perfect Data Set,unsplit,rose / Pest Damage,-,Synthetic Background Removal Bias,790 dari 790 gambar memiliki latar belakang terhapus (no_bg_*)
+Perfect Data Set,unsplit,rose / Rose Mosaic Virus,-,Synthetic Background Removal Bias,245 dari 245 gambar memiliki latar belakang terhapus (no_bg_*)
+Perfect Data Set,unsplit,marigold / Helathy Leaves,-,Typographical Error in Class Name,Salah eja 'Helathy' (seharusnya 'Healthy')
+Plant Classification and Disease.v3i.tensorflow,train,2206_jpg.rf.9c0ccebad1002cd99f814493675dcc18.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_13_png.rf.c899c7c29462eb4c0f0c1f0a35d04ee6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1034_jpg.rf.71e2f758722a155db554d99bf2e99527.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-18_jpg.rf.7d39678f15724e61c159d291fe14cf2b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.1fdbd0693d9e1c4414751f38a0d01940.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2233_jpeg.rf.8bbe45d5140a21c582e068a8d5846b5b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3153_jpg.rf.f6eec07d5061b78b84e352c52c0c9b00.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Bac-on-Poinsettia_jpg.rf.63fc31fe5a6f682d5917ec277167fcc4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-3_jpg.rf.153c9851bafe32cd1edb78f86115b8bd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3205_jpg.rf.649cc0ccfdce543bf89a9ad7ed7ad2bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_5_jpg.rf.63ac1f80f7b8472e7814b1e899c00dd7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,369_jpg.rf.84b49629dbdfbc4fcabf3ada6dbe449d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2484_jpg.rf.1fb6cfcf1ac16dc6e7d0f68bd639fa0a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,5816170789_b3ded275fd_o_jpg.rf.3a8258779e8dfb3df19b0461734728df.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,17_jpg.rf.8540376dbcc95a9544d93e455d607391.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3_JPG.rf.c37056ab8d79811567f4f7ba905d25dc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-on-foliage_jpg.rf.f169f687e3c95587cc43c582362be012.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_jpg.rf.93cacf648e6a62a39af74767e923ecd8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165839_jpg.rf.9cd5fc6edfc1b0a18785e6ba46807f5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_33_jpg.rf.ee2f04cb2911c501c1ced26308e005ed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2206_jpg.rf.44795ae70a034d1668ffc52d9a12c9ae.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_23_jpg.rf.b591fae95f4feef8e1e644818ed47151.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_31_png.rf.da45adfbb172cc0f6c5a31084261594d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,305_jpg.rf.e472982283cd9c35cfb36a6d23059ebd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-15_jpg.rf.00c5b2758b9f4c12b2611687b9156ee9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,8226402877-38b85d3ed4-o_orig_jpg.rf.2c850aa3b422d5389c97eaa109aae4dc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,4091_jpg.rf.3a518d6536a543e7f073fc5be93b49e9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Symptoms-of-bacterial-leaf-spot-of-tomato-A-C-E-and-chilli-B-D-F-at-21-days-post_png.rf.5dab4b45841b9ee2eee7330aca8e01e6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2593_jpg.rf.871d73345546fcc32ff19fd49cfc768c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_19_jpg.rf.565d218d39134206e810b680c6a0fbc8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2242_jpeg.rf.6459f04b624538111552fbe5a8da2863.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1898_jpg.rf.13e18d47b09e638d792d4ad509e64a95.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_16_png.rf.5182f336613f12df61181eb5fb4bc4eb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-22_jpg.rf.ae64036268e2f561a35668cdedc89986.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-on-foliage_jpg.rf.10d16b145170874a9d4a99f08ab78e56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_4_jpg.rf.070b59a3d40eabe06aae6446487ae11c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-8_jpeg.rf.b896c4367b0cc247e621dbe867e5b248.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,TLC_jpg.rf.20777ca0a45cf3e99c691e47db64bcda.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3205_jpg.rf.c071b6cb86f2e1426e633b6b861c1040.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-4_jpg.rf.7f5f058b4969177020ea35e8ce123411.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,6_JPG.rf.9b6f7e620ec8d327888bd46109ab91f3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3153_jpg.rf.c77fc73959fd1a5b6c319fe45ff98abb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_22_jpg.rf.63de80c545e115e21b719e48c528969c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_5369_jpeg.rf.34260f3e813b4044dec56bcf61cd669e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-11_jpg.rf.106ee0df24773a0b0df46754b1eb11a0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,bacterial-leaf-spot-780x520_jpg.rf.fdeaeffa2023bcd5b21d348e7756b53c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Capture_JPG.rf.b979fe3b00fe26c8a68439aa87c64d35.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_23_jpg.rf.ee5ec0a1215fd70198e9dafbb5e40745.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-22_jpg.rf.03ad28cf77d47757dc3557e365898095.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Yellow-distorted-tomato-foliage-caused-by-Tomato-yellow-leaf-curl-virus_png.rf.9ee1b39ab8e5121d6b578b4639233883.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165852_jpg.rf.c93eec426de45098266baa77b1641541.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1898_jpg.rf.5eac3d3d546b22467a5a8695fc2b0a7d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3033_jpg.rf.2b05eaa6cc569413366fd62682d9c083.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2593_jpg.rf.1372aa929bdd38c414b464c23ea81b7b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Amazonica_jpg.rf.93b42b659b2dc83884a572e852cc5142.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2245_jpeg.rf.3fba9d12494799331d766e936d70d25e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_33_jpg.rf.c48ebfe45a5c3d35527743fb093a8d0d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165852_jpg.rf.b900616abaf091f71188114eb2baf7ba.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_5369_jpeg.rf.1cc3f9c45e01f34634e79832b3f793b6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2572_jpg.rf.ca192b3cd8a4a584174d64ccdd524767.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2572_jpg.rf.29d45492aa9f9ea7919854e775bb29bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1486_jpg.rf.e784dbddea0515887d43ae9e94ae13b0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_33_jpg.rf.28134a3286839a820f7d4aa0044c7896.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,bacterial-leaf-spot-780x520_jpg.rf.a1ebc261130ea8a640f8522aad85215a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_10_jpg.rf.0bd78206ed6c182c43f7ab954ae7baaa.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,4_JPG.rf.35e0585e863a16f05527522ca521d7ba.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_27_jpg.rf.ba591661e300be07c1569eadcb8b54db.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2240_jpeg.rf.8480a7806df81e38bd865b682f24011a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3436_jpg.rf.ca541f794f845025b7a0323d91640002.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3353_jpg.rf.221c567a070a240fc0f2851110b9dbf1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3434_jpg.rf.8229b5cfca1116f53b667b44dd3f3963.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_28_png.rf.18719cf582e68becd9db4ad274f1e828.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,5816170789_b3ded275fd_o_jpg.rf.f7e2bcc5c2288fe6e381c737b8472186.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,images_jpg.rf.4929db8bc49eb3253e4d6960ebe06db3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1034_jpg.rf.e31c4bad0631d8c55a0bcdedd4975779.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1486_jpg.rf.2cd1f2ed9a8e3fec6ce89cfb864b6909.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3434_jpg.rf.5f54429ad02d58fcbef385042669b88a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.a206c2fb9eeca28803417416a773c66e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1451_jpg.rf.5b50c13674bdbf97380ea463734bef14.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3970_jpg.rf.b9c59626c11ea56e9561ed965159e515.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_30_png.rf.900fbd1ac4fe7935418372da729eef89.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-11_jpg.rf.e03501f831eb6af8b194d7d3b4c44009.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_23_jpg.rf.ccf27546033dbb8f27af08dda8bf51d2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3033_jpg.rf.ad5f52cb71e0826e280a316ca9d342a9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3737_jpg.rf.c8f8e499126861fa84b452021b1bf7e6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3018_jpg.rf.1c1cb86a50625b5c516729c091c7beb8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Capture_JPG.rf.6ca4cd2a0a2860ae24c735365809ea56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-780x520_jpg.rf.684a7167a9b54583c53b2bc14b2d9bee.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3353_jpg.rf.ddb533d3635e1d218bcc0175969770f1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_26_jpg.rf.a0f9a6f527c9b27eb2f828859cb1b0db.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_28_png.rf.4a74551de83e71d8753439a49b358232.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,5411468_jpg.rf.4bae5caebfb2671349cdd18e81e1a24b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,4_JPG.rf.c0b7bc9977526b79099f2f4d55dea5f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2593_jpg.rf.3bc04dd2d857f0176c922929f3edb95e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_2_png.rf.41928d73ca4532d1b6d3f907e87a7802.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3970_jpg.rf.fc0f07fac9a1d280ab1bf2430e6e52ec.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240926_084439_jpg.rf.36f561d47b701191c857079125e21131.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165840_jpg.rf.964acbce5f9017a2822ebab4ac6b9a39.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_jpg.rf.e78bd8f9149a2bfa63f6086fe6753700.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2229_jpeg.rf.34aaaf9f7540fe70dc3bfb8ecb3dc142.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1451_jpg.rf.d47ede46a1529db351cc7874cf4a959d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-4_jpg.rf.f11943afcbceb1f3674a40b2afcad012.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3737_jpg.rf.ab932dc18e0b678aa9361901c78cb3c5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,8226402877-38b85d3ed4-o_orig_jpg.rf.f91facf5117398daad388e919aeec722.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_32_png.rf.5bc9252684459bd81998dc02bf43a7d4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_31_png.rf.caf41c2a1e95a02ef54ee03424981328.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_16_png.rf.77d75a3805084eb1e85f535b92444817.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-4_jpg.rf.08c1582749485a24e2cd03b248b830b0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240926_084439_jpg.rf.450a0c124b4c7a0dfd8b76a3c0ac00a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2722_jpg.rf.27bf3fd068fbe1bc0213dd413be6182a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-1_jpg.rf.1dc732e32e428253b740b67fff022040.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2240_jpeg.rf.0aab788f5eee561c0cd7dc2fb94a5dbf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2722_jpg.rf.f4d7da8cd1d1728c884982cec69a2c70.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Bac-on-Poinsettia_jpg.rf.503ca39be4423836a9e9fe3ca70277b6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-3_jpg.rf.ce46795199e9e64528e3e171b729855a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_34_png.rf.52973d20a7b9e50bf439bde8647f822a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_3_jpeg.rf.080c1004b9c1eac97fe64a314fc0352b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,images_jpg.rf.1d7b8612bb7d0e4bfb81a4ebf95c441e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2245_jpeg.rf.ac6fac2414e75f34da8c3c5374e2e2a1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3263_jpg.rf.1a8fb8f59d480a1d2aeca2a9bed84f5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3153_jpg.rf.6f3d89b538e66fb16286017af9420342.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-15_jpg.rf.6810da221295cfe16f3447c8a882592e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-5_jpg.rf.50e2d2ae3727e7ebd6972888a888352b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_2_png.rf.1445e1f76835aab81b1ca706c4adb8ea.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_13_png.rf.43cf6ab675c9c527b313f669bc1eae4a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-tomato_webp.rf.123ba57f828e97829daf1c26e16da2d9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3520_jpg.rf.8ffa3842235f342f71113e1c9afa9b3a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,PR112image1_jpg.rf.84dfa33eb3046918a3037ed3ff8bf0e7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,frcfig7astr41_jpg.rf.12c14a8c7a63d3239135806183ed90b3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-10_jpg.rf.b631ee774af80d299b2e180bdc0ce4a1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_19_jpg.rf.760770e224f654c2b1e452e85da55ce3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2572_jpg.rf.c477aed780f7377d327a785e7eb1217e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-8_jpeg.rf.2cb386b90b433645e4897361243673c5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3263_jpg.rf.27e33a097ece518e0dc87cdc225712cf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_5369_jpeg.rf.a2faaecd3096e49347a8c4a5bd42919b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Yellow-distorted-tomato-foliage-caused-by-Tomato-yellow-leaf-curl-virus_png.rf.c4fe03e6130271136479969c59854b69.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2233_jpeg.rf.858fffae18bd0aa590cc24fa917af5a1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3233_jpg.rf.7cc86749805f3d1a2a6813f00c6aca31.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_29_png.rf.25cd788e71ed907366802f56230ca418.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_19_jpg.rf.70d31acd4ffabb33ccfcca0efe9a5aef.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3355_jpg.rf.c013c39984f28a2166ff0e25293afb45.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3520_jpg.rf.e2d6466eae23d26371aa047a6fcccbdf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_13_png.rf.502e09f8f4c3a4731ad2c5c87312a4f5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,PR112image1_jpg.rf.0610f07e17d689d08e4947265f510f99.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-tomato_webp.rf.8f4867cc8f3947ce32c9bcee0d42db03.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-780x520_jpg.rf.f10b9797680580e83673b1c6ba0a2930.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3597_jpg.rf.8e3db22f8953bb9101de8ae2bc32b62f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2484_jpg.rf.78823e09b2f6f5aecbe8e6288cfa0bee.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165839_jpg.rf.db67d6bf10d958c2aa516a0945cdce2c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1367_jpg.rf.4b475d2b5b5ea327c173274252cbe8e8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3355_jpg.rf.8333c2a2adb97be3806cebfe12fd2507.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-18_jpg.rf.c2728fd3b5d86949894017ba81bcf8b8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Yellow-distorted-tomato-foliage-caused-by-Tomato-yellow-leaf-curl-virus_png.rf.464119c7f0b6d8d04841c8490514336f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_26_jpg.rf.a55541286cf90d282b483f154cb196f2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2871_jpg.rf.e3cee244e6486d50be877a1758045421.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,image2-7-e1627072469249_jpg.rf.9c98855c6043055b912d15c9cb579db3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-3_jpg.rf.9e4336b70bbfa236d49988da97798280.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-5_jpg.rf.4bea0abb7848c4821ed6cacee03971ab.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_31_png.rf.92ae97059476da51453095c03ea8f4af.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2243_jpeg.rf.2831da1734dcae0b01c036166fdb0630.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-5_jpg.rf.b2bfa9337d979fd892daec2733b32af8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_21_jpg.rf.107303a9ffc7731a2cce4082f46bed97.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.18ff7ce12d3675ec5498c38c4639ffc7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-8_jpeg.rf.2688875f0bfc234e9955160a1bcbf730.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3520_jpg.rf.e41ecae7f446ac74280a4f8f07056cc4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2243_jpeg.rf.9663bb411276753903d4daedd4a9403d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_18_jpg.rf.c3ccac632612ab942da75f0f4045ad29.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.29bb7217ac64e7f78c008ba39eec7a56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_12_png.rf.1c6aa0922359731af7830bbfd33689ab.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,8226402877-38b85d3ed4-o_orig_jpg.rf.317a1ce1a86cc99adf551274a3cdf91b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_10_jpg.rf.6d413fc60d01b17bf414d298e3b7c359.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_5_jpg.rf.73749f68b7f904302ecd19327203fc0e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3325_jpg.rf.5518918c2b75b888776675d500d27ee3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_21_jpg.rf.18e0b79f9bc6c4b39f08330beb191d82.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Amazonica_jpg.rf.c28a25d1c359e3f5facf2b86e25f6407.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Amazonica_jpg.rf.d2e89c5f0db81348c989e905c8548c5b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_29_png.rf.93aeb4455c134c6c7c543ad9c3cc7976.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2229_jpeg.rf.35acc94b5171228c3e56330099d6445b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-7_jpg.rf.32b3765b73c42c03a994f37033dd1dd0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,4091_jpg.rf.e36cec4fd2acead8634187196e316365.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_10_jpg.rf.c710b57c42d7042b4576a747cf1dd42b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,17_jpg.rf.f9ce0549ab8707a89fec203d30103ed0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3233_jpg.rf.c26b78e414237fdab531ec72812f45fe.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2233_jpeg.rf.591678deaad37aabc9764ab3c774e171.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_34_png.rf.6f3b4c1b5746b3e46d191f5848df501d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-7_jpg.rf.b74b227f30affcdc415fc5b9c6e713c3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_30_png.rf.41c5081b9c6a0c6a0f79d96e296c7845.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,frcfig7astr41_jpg.rf.c2ede671d162176c9700e034e47d07fd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,bacterial-leaf-spot-780x520_jpg.rf.ac7872e00ede91fa36079afeefc8eca4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Symptoms-of-bacterial-leaf-spot-of-tomato-A-C-E-and-chilli-B-D-F-at-21-days-post_png.rf.6bf6cfd4345e269f84d76483fcd97e24.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_29_png.rf.c3da7e20ca133b1892a37efbf2353de2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165840_jpg.rf.06ae62044cdf7d5de10ca55915a9fedf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3325_jpg.rf.ef67d2769c442a29b7b9d061ffb47e31.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,369_jpg.rf.841f7c513b00b3670e26c42f44d6bb83.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-on-foliage_jpg.rf.b71f0ed9be3f9fe853d2381a1df72c80.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2242_jpeg.rf.a1c0a731b0b6270e68625d6a71d3e721.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_26_jpg.rf.d3675165f9dc6b9aa8b541729eb155c9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2871_jpg.rf.c702c30bdf42ff2931bbe72743680713.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2206_jpg.rf.3d5d1cf787933216883b06439852710a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2722_jpg.rf.b4060dd646e5826da9ab4855a9cd73a0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3355_jpg.rf.3c5134ef0456ba1955901ae113860294.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3233_jpg.rf.1f70d41446191144f957f3a3b3c3ccfa.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_32_png.rf.f3dac708d1813a1d2704920a5bd6e1e2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,305_jpg.rf.518feaddf82af6defc090a883f98dca2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3353_jpg.rf.748b73bc084333118874cdc34fb57c79.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-12_jpg.rf.1d71cc897f0f009d2eb626ab7e264854.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3018_jpg.rf.74ec47a1ae54cb6fc8e1c08ea451152a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3263_jpg.rf.e31728056bde4bf351b6bc266602b63e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165852_jpg.rf.d57bda1a36ba5be2a2d0ad60af08cf56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,XKhZV_jpeg.rf.8e789a10b91f4e75a429b5fb01d19651.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1034_jpg.rf.6a60cf083ea45ae11818fb93f5d0834d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3205_jpg.rf.2d8bf396e654180d30fb2a895b9f56df.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-18_jpg.rf.8b79292d1b24ee59cc17181c47757320.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,5411468_jpg.rf.39f48b733bd67b5ca05e0f110e9bdd0a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1486_jpg.rf.11654da810ffd23fbc01ad6f9a6d1fa1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,12b929ed-131c-4aa7-822c-f0ca69654caa_png.rf.d1f72c3559264dba23d88dea5c9738cf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,369_jpg.rf.1ce47b0f8c5180287e7d84de10f7f91d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1367_jpg.rf.4c5423ab24a072cdab512eb25a4868e3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,305_jpg.rf.dd7c5cd7834ab7fe8fccb6c2bbf516ed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,image1-78-e1627069943715_jpg.rf.2d8fe18b83359b32f35008ee761ae38f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_30_png.rf.76200fbd054f33fbb38b98b8eb39a082.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165839_jpg.rf.397704a073c49738a35b08b8c4f2dba6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-23_jpg.rf.531c5b0c3cd42bba69a11cd9814be82a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2242_jpeg.rf.86132351f784193831fd829ba1c6d589.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3436_jpg.rf.f4aa6eeeb8f2ca5f37ee1569425f95d6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_11_png.rf.a4146518d86388648089f5dce4c9cdd7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_8_jpg.rf.8930f8293c26c561f2be7925fabccf7a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_11_png.rf.8aa7d2f6ab8de7a669d7800c1920e11c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_17_jpg.rf.dbbc13cd9e3fbe002a88cc3ab5581a03.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,6_JPG.rf.3e04bf478c78d97a25a5df466840c2f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,TLC_jpg.rf.6717a0225495bfc06183266fb9fbbb67.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_15_jpg.rf.f8ad530a06a008d4eb10d70fba01b207.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3970_jpg.rf.846e7811da879b95d5894bb77703fad1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-23_jpg.rf.9e4f6e7d13d02defc14d962b89f76f09.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_18_jpg.rf.26d6d68c180aa3049fd55f91f37e5040.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,12b929ed-131c-4aa7-822c-f0ca69654caa_png.rf.f2dbe5a85a492c387365419a8d485edb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-11_jpg.rf.13ad74863ed241a90c516557f4413d1b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2871_jpg.rf.a98656092156f6cf585feacd229716b4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_12_png.rf.57b9a9211022911bc6ff55de1cbca72c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-12_jpg.rf.59f034ce065c2ba503ffbd7c0aff8427.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,12b929ed-131c-4aa7-822c-f0ca69654caa_png.rf.2e5bc22fcf5062e56b5ad2aaef22a8a4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_15_jpg.rf.0507600b7ea0fc116b10a7ea073202af.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_2_png.rf.d11638f7d60515777c8379081482af97.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-tomato_webp.rf.cf1155f579775c0844634adc0b006e29.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_34_png.rf.6f75361c09e832df751ecf358fc63ac4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,TLC_jpg.rf.87350010b847fb97c3f4347b64c1aa15.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_27_jpg.rf.205646e43b792fb0bdeecf36fd8244cc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.65712e8d694976bc3d8b7bc2e00837cb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,5411468_jpg.rf.5d07b9d62f3f4a1ad696edb098d07329.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,17_jpg.rf.2667a3344aaf0a5b796a93b9930f91e5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,PR112image1_jpg.rf.a0a8c46f60644c3413814543769fce5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,6_JPG.rf.a8a0a5648339751e4212a782140a02c3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3018_jpg.rf.8cc2b34ac40e41274c9cf44e2e0f1444.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_18_jpg.rf.b763700103e0ee37e2d3bea5c06b524c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2245_jpeg.rf.47db95eb6596760ac80ebc37b1f88d46.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_11_png.rf.53d33837e5293e411ecbc82c1e763e2c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1367_jpg.rf.1f5eb723a4c97185231a898b9de194c2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_21_jpg.rf.b46d6b84b6947b4782f124d12270e8d6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2240_jpeg.rf.f4057fa4fe7baf987fb5249f1bdf7b37.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,late-blight-780x520_jpg.rf.f3e7f3ff16ae9c41ed69723a448adb16.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-10_jpg.rf.9472cd5497f94bff42f0238dfe75d91d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,5816170789_b3ded275fd_o_jpg.rf.b03ac4b3767a1a2487a5cca8f4cf2ba6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2243_jpeg.rf.b19b518bbbb98518c30b441807e87a3c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_12_png.rf.8cd1059a682bc496d42c9885b5c4a2b4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,frcfig7astr41_jpg.rf.c6b6e32549ff27afb9e3a38e18745a5a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_28_png.rf.80812f2c7e5dfc223bcc4500da30f057.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_27_jpg.rf.496971297fe8d2f072a4ed40bc306830.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_22_jpg.rf.a5a95acac0b6314cef8a34a810b4583c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,4_JPG.rf.b47eb3035b836802d2fa09aea5428579.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_jpg.rf.8756684a2eb23ff289fcf25d8e5f8da7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,image2-7-e1627072469249_jpg.rf.3d2528e841ce859ae7f371d692c9f9ef.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Bac-on-Poinsettia_jpg.rf.35eded338b681bc1be5e7ff98dbfbe35.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3597_jpg.rf.37c81e4471614d74faddadc2ccac46bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,4091_jpg.rf.27e59b1d3e01c6cce4bf74a0fdca10a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2448_jpg.rf.c57b2170e733d596f417a564e160fa7a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_3_jpeg.rf.3437575988a6830c3c44d53a4bbf74f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,IMG_2229_jpeg.rf.568f191e65f910626ceb816054711559.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_4_jpg.rf.1381f871e9dd5cfff151ae9f461954eb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3597_jpg.rf.50e892a95f61210fb032004de552eb04.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3033_jpg.rf.f428cd40f6b74d2af3eb18c3323aae2c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_8_jpg.rf.620d791ea5f41964265d999d721b63f4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2484_jpg.rf.9d3016a5230a5bb3e8814474642a63a0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-22_jpg.rf.438d11d153aceccf34ec00a5583d8d7d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,XKhZV_jpeg.rf.f5f3074e06d6bacc1e05ff19b1f601b7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_17_jpg.rf.7eb1dd16f26008fe3678bb3860dd645c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_22_jpg.rf.b4036ec0f5bea26fcc844de9a35c5dbb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_8_jpg.rf.ab1ecdae37c725d99d2adb58b85d80bd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_16_png.rf.e8f99e7adc6b38cde73e80b677728e35.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_5_jpg.rf.7d0fc700f6965161c4846ee9f36d083c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-23_jpg.rf.2775124695241e3c03bb86f274880752.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,image1-78-e1627069943715_jpg.rf.0d10aae012c9235fe1a001f4f2f922db.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240926_084439_jpg.rf.c4c9a6ea1e88e500c24cf7262ff1722d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_4_jpg.rf.f6d53573d0a1114a1c5dab77a636f917.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_17_jpg.rf.f304b417ea50e0865d05285faa1848a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-7_jpg.rf.8647c93965049613ec97116c0af6ca59.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,image1-78-e1627069943715_jpg.rf.0b93e146f1404aa057a36f5807631deb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_32_png.rf.6ae1783dbaa759f07ff8b132c154d659.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_3_jpeg.rf.38ed18e48154122d7c1055597a4b4a63.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-15_jpg.rf.32d6e4529245a12bdcfb78d7a6df7ee3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3436_jpg.rf.0da51c80abf7dd23420fa02c3612bfed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3737_jpg.rf.2a8c9f4d91fc222d39fb40a3afbb181f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-10_jpg.rf.0e5ef6347bf48aea7f28a2f7b8e45bb0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.f4ed3121471b8ed636bc33f2b19fa1d0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Symptoms-of-bacterial-leaf-spot-of-tomato-A-C-E-and-chilli-B-D-F-at-21-days-post_png.rf.4f0d559066fb617c678c08db0ddbb5cc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1898_jpg.rf.84410cffc8b38779aacbdfb4ee89cd6a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2448_jpg.rf.ccee3e89c5c353be5d26447ceab2f917.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,XKhZV_jpeg.rf.29a60d14f99a200276c0b8cc4aa864c1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,2448_jpg.rf.5131c79c0958c3267b46aedf136af458.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-12_jpg.rf.364d14466d71023898eec5aff39fb820.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3434_jpg.rf.0169fa4b2922c227e6a0147a53a4734f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3325_jpg.rf.cd84c126e93072b58b2cdc62e457df0d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-1_jpg.rf.395fde6a4cf8716de65b7b4fbe3730a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,3_JPG.rf.625ae00ec9d202976c5eceb324d33fc2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,1451_jpg.rf.671c33f230fc1d7796fd05a34d13e969.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,images_jpg.rf.5e8432909fed8ff607f01d15f4d40be3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,20240928_165840_jpg.rf.96b5294a66c7c33d87d41a939c931bc2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,train,Capture_JPG.rf.3c94c1a998c10809ef7bedc9d4958ee9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,4009_jpg.rf.3d48212849bf72cf2757a846ec101428.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,5_JPG.rf.4a5f1d426fe8676ad8a0bdff2bfe7e14.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_14_png.rf.1269476c935c98988903620769ed34f1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_20_png.rf.ab43339cf8c67125d0716b84236669a9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,2355_jpg.rf.f624a1c046112ce7c700377b12e703fb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,1955_jpg.rf.6bdf637b9219e51e02be10b289c5727f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,20230816_193650_jpg.rf.2f058f1dcf44d66b1de3d0e0b843ba78.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,Halo-2-3-1080x675-1_jpg.rf.06ad722572af8c32174834550d1d2ef1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,228_jpg.rf.65b3fc14a677158984cb2a920556959f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,20240928_165846_jpg.rf.497ba3a8803e0b64a395d06fac277228.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight-6_jpg.rf.689a0b79583fe6fe63ce3ee1ece29eab.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,0216_jpg.rf.8d7245eb0517f4dd895d7372c8c8cfd7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_9_jpg.rf.f9903513813f398dda38fe51aad78c26.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,3628_jpg.rf.584060df7b7a7b709230aea0a9f48362.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight_jpg.rf.43bce6d611ef8116942affbecd69129e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,2767_jpg.rf.5818af788c9c43845bd1f06d71cb30a8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,IMG_2291_jpeg.rf.6cd2ff05191d009fcdd918a5525f9022.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_7_jpg.rf.4d091d34a22684556ece7ada1bd85762.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,1512_jpg.rf.14ff51e152d5cc37dbabfbbded681842.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight2_jpg.rf.daaa32d87638cab156df1b9dc78e5ce5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_24_jpg.rf.763e04b2b8f2e4eb1a5ae0fd95a68d24.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_1_png.rf.40b1efdfd33152a8d563fcddc91dce85.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,20240915_173904_jpg.rf.d9cf567e98bb1404425e905889c8c4ff.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,2_JPG.rf.f0d578e5476bd58d8d67c58edd428dd3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,IMG_2248_jpeg.rf.c5050ed33dfa234829c6af6c5d499d70.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,3-s2-0-B9780123744104006506-gr3_jpg.rf.5b36ff5f4254f0e49648ea7015a6d42e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight-14_jpg.rf.31e6c7436f83133b54fe8f4e64a87716.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,BacterialSpot_6_jpg.rf.24cd58592d3030b91553cc23b18a8ace.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,1640_jpg.rf.2a402deea2191347358573b87b7c1f77.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,2460_jpg.rf.371dfaa68b8e1d072661ac19ccd1d887.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,3319_jpg.rf.6e4c8cae34d3b827f9c3c7c0c9bcf8c8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,Late-Blight-9_jpg.rf.ca27c0bb23488c84188729cbac75a407.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,IMG_2232_jpeg.rf.83014f3fbf49be5dd18d835715c52ebd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,2407_jpg.rf.98ae477942777cf8dc7cd54fc263372d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,1187_jpg.rf.097220c52a69fbfeca0e06eb2bfbc8a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,2525_jpg.rf.590ac8407bfce4730f720eac1f77e3c6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Plant Classification and Disease.v3i.tensorflow,test,1780_jpg.rf.f561752f84f49cee007b59deb2c5f155.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+Rose And MArigold Leaf Disease 1,unsplit,Perfect Data Set / rose / botrytis blight,-,Synthetic Background Removal Bias,558 dari 558 gambar memiliki latar belakang terhapus (no_bg_*)
+Rose And MArigold Leaf Disease 1,unsplit,Perfect Data Set / rose / Healthy,-,Synthetic Background Removal Bias,1167 dari 1167 gambar memiliki latar belakang terhapus (no_bg_*)
+Rose And MArigold Leaf Disease 1,unsplit,Perfect Data Set / rose / Pest Damage,-,Synthetic Background Removal Bias,790 dari 790 gambar memiliki latar belakang terhapus (no_bg_*)
+Rose And MArigold Leaf Disease 1,unsplit,Perfect Data Set / rose / Rose Mosaic Virus,-,Synthetic Background Removal Bias,245 dari 245 gambar memiliki latar belakang terhapus (no_bg_*)
+Rose And MArigold Leaf Disease 1,unsplit,Perfect Data Set / marigold / Helathy Leaves,-,Typographical Error in Class Name,Salah eja 'Helathy' (seharusnya 'Healthy')
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Tagetes erecta / Heaalthy Leaf,-,Typographical Error in Class Name,Salah eja 'Heaalthy' (seharusnya 'Healthy')
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Tagetes erecta / Tagetes,-,Synthetic Background Removal Bias,213 dari 213 gambar memiliki latar belakang terhapus (no_bg_*)
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Rosa / Fungal Leaf Spot Disease,-,Synthetic Background Removal Bias,558 dari 558 gambar memiliki latar belakang terhapus (no_bg_*)
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Rosa / Healthy Leaf,-,Synthetic Background Removal Bias,1167 dari 1167 gambar memiliki latar belakang terhapus (no_bg_*)
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Rosa / insect damage,-,Synthetic Background Removal Bias,804 dari 804 gambar memiliki latar belakang terhapus (no_bg_*)
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Rosa / Nutrient Deficiency,-,Synthetic Background Removal Bias,251 dari 251 gambar memiliki latar belakang terhapus (no_bg_*)
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",unsplit,Rosa / Rosa,-,Synthetic Background Removal Bias,108 dari 230 gambar memiliki latar belakang terhapus (no_bg_*)
 goletplant.v5i.tensorflow,train,IMG_20220521_173807_jpg.rf.3baf0316f2844f9f5ed9e90dfc5f811e.jpg,33,Coordinates Out of Bounds (> image size),"xmax=1800.0 (w=921.0), ymax=1787.0 (h=2048.0)"
 goletplant.v5i.tensorflow,train,TradescantiaFluminensisQuadricolour_48_jpg.rf.3bbc525395c3b9d3020e41c4f6ec7f69.jpg,39,Coordinates Out of Bounds (> image size),"xmax=1036.0 (w=2048.0), ymax=3474.0 (h=1536.0)"
 goletplant.v5i.tensorflow,train,IMG_20211215_120315_jpg.rf.3c0e549e337f0dc16936cc314ea587a0.jpg,130,Coordinates Out of Bounds (> image size),"xmax=1800.0 (w=921.0), ymax=1987.0 (h=2048.0)"
@@ -438,421 +891,57 @@ goletplant.v5i.tensorflow,train,alocasia_Zabrina03_jpg.rf.39318223dc7c0ca09a5c71
 goletplant.v5i.tensorflow,train,alocasia_Zabrina03_jpg.rf.39318223dc7c0ca09a5c717a6522dfc8.jpg,40031,Coordinates Out of Bounds (> image size),"xmax=1286.0 (w=2048.0), ymax=2024.0 (h=1536.0)"
 goletplant.v5i.tensorflow,train,Pelargoniumxdomesticum_78_jpg.rf.3b48d8a07ceb1bd43ce617042c1a0d46.jpg,40420,Coordinates Out of Bounds (> image size),"xmax=1843.0 (w=2048.0), ymax=3510.0 (h=1833.0)"
 goletplant.v5i.tensorflow,train,Pelargoniumxdomesticum_78_jpg.rf.3b48d8a07ceb1bd43ce617042c1a0d46.jpg,40421,Coordinates Out of Bounds (> image size),"xmax=1712.0 (w=2048.0), ymax=2432.0 (h=1833.0)"
-goletplant.v5i.tensorflow,train,IMG_20210721_202031_jpg.rf.6a7d8d6407a2570ad2c5efcbedbb56bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,PonytailPalm_30_jpg.rf.d237e5989f6ff5f1ce63141f90c24bec.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202104_jpg.rf.07cdcd853b81b5efcef60052fc839dbf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202119_jpg.rf.1b21c3a0ef2efd8e532bbba86c4c826d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,Euphorbiamilii_249_jpg.rf.9d21d54a32623f1bcf8b3a8c1b6d78dc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,BegoniaRex_153_jpg.rf.3fd118a1db409f9a3f95e2ffe0ea5c9b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,BegoniaRex_153_jpg.rf.18e3340dc2fa49f2ac268d49e8a8d539.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,PonytailPalm_30_jpg.rf.95013863d8828c3c60d62fd10e06ca72.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202119_jpg.rf.16f27a1b22e8b3f196ae5cd0ccd1d00a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220801_200939_jpg.rf.793e7ad3d578305f235095db44d940cf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221001_094943_jpg.rf.037f76f97e2616122ff3a3de8ba4c613.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191644_jpg.rf.8635f3abbbe4bd2b1a7a17ec5ea217ac.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202004_jpg.rf.2b73ac7c1f7505dacaf05b9da2821965.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220524_102019_jpg.rf.969e940a08393f0594e02b7dbf5dbc6d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221001_094943_jpg.rf.5552983dd52ce032164d3bc800a91345.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,Kalanchoe_4_jpg.rf.62be18969df360316464a48050527732.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202104_jpg.rf.89dd3bdf2a904f4b7a6ee90058b10c98.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191653_jpg.rf.0533b025dc2316913620a9f6f315cd88.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,CrassulaPortulaca_50_jpg.rf.e95f51087d993712be3d59e213ea584c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220819_112451_jpg.rf.2df9dc9b92f5fbd40e7e828e76eedd9e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220331_104418_jpg.rf.682998822ee8dc5a15e8b94221f90e70.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202004_jpg.rf.baa6279fa819bb55486b1f4782002e46.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202004_jpg.rf.af8f61a444da5cd693a837682f72b34e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210709_093254_jpg.rf.e5d68f2b957bc79b239f44a61b614415.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191604_jpg.rf.7ad903a631dc695a34e82afd105d1685.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,Kalanchoe_4_jpg.rf.7e8e7d73948dfd1e5779ac33dfe9d154.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,CrassulaPortulaca_50_jpg.rf.7b3674be98e9dbcf2f83a7e43a25748b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_183238_jpg.rf.94a3054f64b9f91144dccddcce23322f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220331_104418_jpg.rf.4eaed6081f9ebad3d9f8086de2888b9f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220819_112451_jpg.rf.e6c920777c15b37f1dcd9aed69d06ef1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220524_102113_jpg.rf.8ec61c4d842c2c48c408c5b106bb4bed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_185522_jpg.rf.8c3a5ee3e3ceef4bd29349f97d3f591d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,PonytailPalm_30_jpg.rf.e180366add44c93dd4885b9fe9e11b92.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220801_200939_jpg.rf.bc0ae048e4193b5c1dfef64986ecf63b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210709_093254_jpg.rf.77c11cd748822d71d1ca2b381e8b142a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,Ficusbenjamina_111_jpg.rf.4740770bc418462c2fba62ffa787a954.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220703_154538_jpg.rf.06569b63d97a47df9c890d73d237c73c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191604_jpg.rf.55491feb339e98b3540f1f5b1f331a5b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_185522_jpg.rf.8be32f4a5a80cd44245ef22943f77f7f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202104_jpg.rf.0d8c218ca4bc827338590c10b8cc82c1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,Euphorbiamilii_249_jpg.rf.a41392e8cd7def02e66ad69079166069.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191644_jpg.rf.e8ca1036e755099fe649d69783c9443e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202031_jpg.rf.0d4dab1d7f285724b8a13ba6c3e50d0c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191604_jpg.rf.65813d8b35b1d7a5e9d72a076aa46d0d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191705_jpg.rf.bfffd111eaa80ed74916fdbc7ff0cd4f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20230224_151637_jpg.rf.623ed2b4ba327d86dc7e41c61d91ac87.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191635_jpg.rf.84b33c23ba93f0beb1abf1ffc8d6c99e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210709_093254_jpg.rf.2cd5d397385d344e8b7fd2eb57e828cc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220524_102113_jpg.rf.e67daab83c217fec3487fc277f130199.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220331_104418_jpg.rf.2be4259029bc773c9226d4821f84d8dd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191635_jpg.rf.2e9b444fa81bbfc3251b3747eb9ae9b3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20220703_154538_jpg.rf.f83a1a9b806e7ba36f4b6bf5c56cb8e4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20210721_202119_jpg.rf.1cce11475e67d0ad5700fcb42d440dc0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-goletplant.v5i.tensorflow,train,IMG_20221223_191653_jpg.rf.65f43a82747b8cfd2515ca83a2c60177.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,4_JPG.rf.b47eb3035b836802d2fa09aea5428579.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_26_jpg.rf.a55541286cf90d282b483f154cb196f2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1486_jpg.rf.2cd1f2ed9a8e3fec6ce89cfb864b6909.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_5_jpg.rf.63ac1f80f7b8472e7814b1e899c00dd7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-780x520_jpg.rf.f10b9797680580e83673b1c6ba0a2930.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2484_jpg.rf.9d3016a5230a5bb3e8814474642a63a0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3205_jpg.rf.2d8bf396e654180d30fb2a895b9f56df.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3737_jpg.rf.2a8c9f4d91fc222d39fb40a3afbb181f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_34_png.rf.52973d20a7b9e50bf439bde8647f822a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,frcfig7astr41_jpg.rf.c6b6e32549ff27afb9e3a38e18745a5a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3597_jpg.rf.8e3db22f8953bb9101de8ae2bc32b62f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_31_png.rf.da45adfbb172cc0f6c5a31084261594d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-7_jpg.rf.b74b227f30affcdc415fc5b9c6e713c3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_31_png.rf.92ae97059476da51453095c03ea8f4af.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,TLC_jpg.rf.6717a0225495bfc06183266fb9fbbb67.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3355_jpg.rf.3c5134ef0456ba1955901ae113860294.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3018_jpg.rf.1c1cb86a50625b5c516729c091c7beb8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1034_jpg.rf.71e2f758722a155db554d99bf2e99527.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3520_jpg.rf.8ffa3842235f342f71113e1c9afa9b3a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,PR112image1_jpg.rf.84dfa33eb3046918a3037ed3ff8bf0e7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,12b929ed-131c-4aa7-822c-f0ca69654caa_png.rf.2e5bc22fcf5062e56b5ad2aaef22a8a4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-4_jpg.rf.f11943afcbceb1f3674a40b2afcad012.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-7_jpg.rf.8647c93965049613ec97116c0af6ca59.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,image1-78-e1627069943715_jpg.rf.0d10aae012c9235fe1a001f4f2f922db.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_8_jpg.rf.620d791ea5f41964265d999d721b63f4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_17_jpg.rf.f304b417ea50e0865d05285faa1848a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-8_jpeg.rf.2688875f0bfc234e9955160a1bcbf730.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3970_jpg.rf.b9c59626c11ea56e9561ed965159e515.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_2_png.rf.d11638f7d60515777c8379081482af97.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_27_jpg.rf.205646e43b792fb0bdeecf36fd8244cc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_19_jpg.rf.565d218d39134206e810b680c6a0fbc8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3737_jpg.rf.ab932dc18e0b678aa9361901c78cb3c5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,6_JPG.rf.a8a0a5648339751e4212a782140a02c3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_13_png.rf.c899c7c29462eb4c0f0c1f0a35d04ee6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2448_jpg.rf.5131c79c0958c3267b46aedf136af458.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,bacterial-leaf-spot-780x520_jpg.rf.fdeaeffa2023bcd5b21d348e7756b53c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1898_jpg.rf.5eac3d3d546b22467a5a8695fc2b0a7d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2229_jpeg.rf.34aaaf9f7540fe70dc3bfb8ecb3dc142.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2871_jpg.rf.c702c30bdf42ff2931bbe72743680713.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2233_jpeg.rf.858fffae18bd0aa590cc24fa917af5a1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3436_jpg.rf.f4aa6eeeb8f2ca5f37ee1569425f95d6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2240_jpeg.rf.0aab788f5eee561c0cd7dc2fb94a5dbf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1367_jpg.rf.1f5eb723a4c97185231a898b9de194c2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-22_jpg.rf.438d11d153aceccf34ec00a5583d8d7d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3033_jpg.rf.f428cd40f6b74d2af3eb18c3323aae2c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-4_jpg.rf.7f5f058b4969177020ea35e8ce123411.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240926_084439_jpg.rf.c4c9a6ea1e88e500c24cf7262ff1722d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_12_png.rf.1c6aa0922359731af7830bbfd33689ab.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-on-foliage_jpg.rf.b71f0ed9be3f9fe853d2381a1df72c80.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_19_jpg.rf.70d31acd4ffabb33ccfcca0efe9a5aef.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,369_jpg.rf.1ce47b0f8c5180287e7d84de10f7f91d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3153_jpg.rf.f6eec07d5061b78b84e352c52c0c9b00.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3033_jpg.rf.2b05eaa6cc569413366fd62682d9c083.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-18_jpg.rf.c2728fd3b5d86949894017ba81bcf8b8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-12_jpg.rf.59f034ce065c2ba503ffbd7c0aff8427.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240926_084439_jpg.rf.36f561d47b701191c857079125e21131.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1898_jpg.rf.13e18d47b09e638d792d4ad509e64a95.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_22_jpg.rf.b4036ec0f5bea26fcc844de9a35c5dbb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165852_jpg.rf.c93eec426de45098266baa77b1641541.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,4_JPG.rf.35e0585e863a16f05527522ca521d7ba.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_10_jpg.rf.6d413fc60d01b17bf414d298e3b7c359.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.29bb7217ac64e7f78c008ba39eec7a56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,XKhZV_jpeg.rf.8e789a10b91f4e75a429b5fb01d19651.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.f4ed3121471b8ed636bc33f2b19fa1d0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,images_jpg.rf.1d7b8612bb7d0e4bfb81a4ebf95c441e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_32_png.rf.6ae1783dbaa759f07ff8b132c154d659.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240926_084439_jpg.rf.450a0c124b4c7a0dfd8b76a3c0ac00a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-780x520_jpg.rf.f3e7f3ff16ae9c41ed69723a448adb16.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2243_jpeg.rf.b19b518bbbb98518c30b441807e87a3c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_34_png.rf.6f3b4c1b5746b3e46d191f5848df501d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165840_jpg.rf.06ae62044cdf7d5de10ca55915a9fedf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_5_jpg.rf.73749f68b7f904302ecd19327203fc0e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-5_jpg.rf.50e2d2ae3727e7ebd6972888a888352b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,6_JPG.rf.9b6f7e620ec8d327888bd46109ab91f3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,369_jpg.rf.841f7c513b00b3670e26c42f44d6bb83.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2722_jpg.rf.b4060dd646e5826da9ab4855a9cd73a0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-23_jpg.rf.2775124695241e3c03bb86f274880752.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-780x520_jpg.rf.684a7167a9b54583c53b2bc14b2d9bee.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_5369_jpeg.rf.34260f3e813b4044dec56bcf61cd669e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3263_jpg.rf.27e33a097ece518e0dc87cdc225712cf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1367_jpg.rf.4b475d2b5b5ea327c173274252cbe8e8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165840_jpg.rf.96b5294a66c7c33d87d41a939c931bc2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1034_jpg.rf.e31c4bad0631d8c55a0bcdedd4975779.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_16_png.rf.5182f336613f12df61181eb5fb4bc4eb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_13_png.rf.43cf6ab675c9c527b313f669bc1eae4a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,17_jpg.rf.8540376dbcc95a9544d93e455d607391.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1367_jpg.rf.4c5423ab24a072cdab512eb25a4868e3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,4091_jpg.rf.e36cec4fd2acead8634187196e316365.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_32_png.rf.f3dac708d1813a1d2704920a5bd6e1e2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_21_jpg.rf.107303a9ffc7731a2cce4082f46bed97.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_5369_jpeg.rf.1cc3f9c45e01f34634e79832b3f793b6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,8226402877-38b85d3ed4-o_orig_jpg.rf.317a1ce1a86cc99adf551274a3cdf91b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_30_png.rf.41c5081b9c6a0c6a0f79d96e296c7845.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.1fdbd0693d9e1c4414751f38a0d01940.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2871_jpg.rf.a98656092156f6cf585feacd229716b4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3153_jpg.rf.6f3d89b538e66fb16286017af9420342.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-22_jpg.rf.ae64036268e2f561a35668cdedc89986.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3436_jpg.rf.0da51c80abf7dd23420fa02c3612bfed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-3_jpg.rf.ce46795199e9e64528e3e171b729855a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2245_jpeg.rf.ac6fac2414e75f34da8c3c5374e2e2a1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_18_jpg.rf.b763700103e0ee37e2d3bea5c06b524c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_4_jpg.rf.f6d53573d0a1114a1c5dab77a636f917.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_33_jpg.rf.28134a3286839a820f7d4aa0044c7896.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2206_jpg.rf.9c0ccebad1002cd99f814493675dcc18.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Symptoms-of-bacterial-leaf-spot-of-tomato-A-C-E-and-chilli-B-D-F-at-21-days-post_png.rf.4f0d559066fb617c678c08db0ddbb5cc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,image2-7-e1627072469249_jpg.rf.3d2528e841ce859ae7f371d692c9f9ef.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,TLC_jpg.rf.87350010b847fb97c3f4347b64c1aa15.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2240_jpeg.rf.8480a7806df81e38bd865b682f24011a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165852_jpg.rf.b900616abaf091f71188114eb2baf7ba.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-11_jpg.rf.e03501f831eb6af8b194d7d3b4c44009.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-12_jpg.rf.1d71cc897f0f009d2eb626ab7e264854.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_11_png.rf.8aa7d2f6ab8de7a669d7800c1920e11c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3434_jpg.rf.8229b5cfca1116f53b667b44dd3f3963.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3153_jpg.rf.c77fc73959fd1a5b6c319fe45ff98abb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,5411468_jpg.rf.4bae5caebfb2671349cdd18e81e1a24b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_3_jpeg.rf.080c1004b9c1eac97fe64a314fc0352b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_30_png.rf.76200fbd054f33fbb38b98b8eb39a082.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,TLC_jpg.rf.20777ca0a45cf3e99c691e47db64bcda.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_10_jpg.rf.c710b57c42d7042b4576a747cf1dd42b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,image1-78-e1627069943715_jpg.rf.2d8fe18b83359b32f35008ee761ae38f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Symptoms-of-bacterial-leaf-spot-of-tomato-A-C-E-and-chilli-B-D-F-at-21-days-post_png.rf.6bf6cfd4345e269f84d76483fcd97e24.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3205_jpg.rf.649cc0ccfdce543bf89a9ad7ed7ad2bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Amazonica_jpg.rf.93b42b659b2dc83884a572e852cc5142.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,bacterial-leaf-spot-780x520_jpg.rf.ac7872e00ede91fa36079afeefc8eca4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,image1-78-e1627069943715_jpg.rf.0b93e146f1404aa057a36f5807631deb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_19_jpg.rf.760770e224f654c2b1e452e85da55ce3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-5_jpg.rf.4bea0abb7848c4821ed6cacee03971ab.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-10_jpg.rf.0e5ef6347bf48aea7f28a2f7b8e45bb0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Amazonica_jpg.rf.c28a25d1c359e3f5facf2b86e25f6407.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3325_jpg.rf.ef67d2769c442a29b7b9d061ffb47e31.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-18_jpg.rf.7d39678f15724e61c159d291fe14cf2b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3436_jpg.rf.ca541f794f845025b7a0323d91640002.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_23_jpg.rf.b591fae95f4feef8e1e644818ed47151.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_26_jpg.rf.d3675165f9dc6b9aa8b541729eb155c9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2243_jpeg.rf.2831da1734dcae0b01c036166fdb0630.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-1_jpg.rf.1dc732e32e428253b740b67fff022040.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,305_jpg.rf.dd7c5cd7834ab7fe8fccb6c2bbf516ed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3_JPG.rf.c37056ab8d79811567f4f7ba905d25dc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_18_jpg.rf.26d6d68c180aa3049fd55f91f37e5040.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-3_jpg.rf.9e4336b70bbfa236d49988da97798280.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3520_jpg.rf.e2d6466eae23d26371aa047a6fcccbdf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Bac-on-Poinsettia_jpg.rf.63fc31fe5a6f682d5917ec277167fcc4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2448_jpg.rf.ccee3e89c5c353be5d26447ceab2f917.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,PR112image1_jpg.rf.a0a8c46f60644c3413814543769fce5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165852_jpg.rf.d57bda1a36ba5be2a2d0ad60af08cf56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_3_jpeg.rf.38ed18e48154122d7c1055597a4b4a63.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_28_png.rf.4a74551de83e71d8753439a49b358232.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-1_jpg.rf.395fde6a4cf8716de65b7b4fbe3730a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_jpg.rf.e78bd8f9149a2bfa63f6086fe6753700.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-15_jpg.rf.6810da221295cfe16f3447c8a882592e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-tomato_webp.rf.123ba57f828e97829daf1c26e16da2d9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,17_jpg.rf.2667a3344aaf0a5b796a93b9930f91e5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2572_jpg.rf.ca192b3cd8a4a584174d64ccdd524767.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3263_jpg.rf.e31728056bde4bf351b6bc266602b63e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-on-foliage_jpg.rf.f169f687e3c95587cc43c582362be012.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,images_jpg.rf.4929db8bc49eb3253e4d6960ebe06db3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2572_jpg.rf.c477aed780f7377d327a785e7eb1217e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1034_jpg.rf.6a60cf083ea45ae11818fb93f5d0834d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Bac-on-Poinsettia_jpg.rf.503ca39be4423836a9e9fe3ca70277b6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_13_png.rf.502e09f8f4c3a4731ad2c5c87312a4f5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_5369_jpeg.rf.a2faaecd3096e49347a8c4a5bd42919b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2722_jpg.rf.f4d7da8cd1d1728c884982cec69a2c70.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,XKhZV_jpeg.rf.29a60d14f99a200276c0b8cc4aa864c1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2233_jpeg.rf.8bbe45d5140a21c582e068a8d5846b5b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,305_jpg.rf.e472982283cd9c35cfb36a6d23059ebd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3353_jpg.rf.221c567a070a240fc0f2851110b9dbf1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,frcfig7astr41_jpg.rf.12c14a8c7a63d3239135806183ed90b3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_17_jpg.rf.dbbc13cd9e3fbe002a88cc3ab5581a03.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2572_jpg.rf.29d45492aa9f9ea7919854e775bb29bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_30_png.rf.900fbd1ac4fe7935418372da729eef89.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_28_png.rf.80812f2c7e5dfc223bcc4500da30f057.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_3_jpeg.rf.3437575988a6830c3c44d53a4bbf74f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3353_jpg.rf.748b73bc084333118874cdc34fb57c79.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2484_jpg.rf.1fb6cfcf1ac16dc6e7d0f68bd639fa0a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-22_jpg.rf.03ad28cf77d47757dc3557e365898095.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-8_jpeg.rf.b896c4367b0cc247e621dbe867e5b248.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,5816170789_b3ded275fd_o_jpg.rf.3a8258779e8dfb3df19b0461734728df.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_23_jpg.rf.ccf27546033dbb8f27af08dda8bf51d2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-18_jpg.rf.8b79292d1b24ee59cc17181c47757320.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3263_jpg.rf.1a8fb8f59d480a1d2aeca2a9bed84f5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Alocasia-Amazonica_jpg.rf.d2e89c5f0db81348c989e905c8548c5b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-23_jpg.rf.9e4f6e7d13d02defc14d962b89f76f09.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_8_jpg.rf.ab1ecdae37c725d99d2adb58b85d80bd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_27_jpg.rf.496971297fe8d2f072a4ed40bc306830.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-on-foliage_jpg.rf.10d16b145170874a9d4a99f08ab78e56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,305_jpg.rf.518feaddf82af6defc090a883f98dca2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-5_jpg.rf.b2bfa9337d979fd892daec2733b32af8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3434_jpg.rf.5f54429ad02d58fcbef385042669b88a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3970_jpg.rf.846e7811da879b95d5894bb77703fad1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1486_jpg.rf.11654da810ffd23fbc01ad6f9a6d1fa1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3597_jpg.rf.50e892a95f61210fb032004de552eb04.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,17_jpg.rf.f9ce0549ab8707a89fec203d30103ed0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Bac-on-Poinsettia_jpg.rf.35eded338b681bc1be5e7ff98dbfbe35.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3325_jpg.rf.cd84c126e93072b58b2cdc62e457df0d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,XKhZV_jpeg.rf.f5f3074e06d6bacc1e05ff19b1f601b7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1486_jpg.rf.e784dbddea0515887d43ae9e94ae13b0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3033_jpg.rf.ad5f52cb71e0826e280a316ca9d342a9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Yellow-distorted-tomato-foliage-caused-by-Tomato-yellow-leaf-curl-virus_png.rf.9ee1b39ab8e5121d6b578b4639233883.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_16_png.rf.77d75a3805084eb1e85f535b92444817.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_22_jpg.rf.a5a95acac0b6314cef8a34a810b4583c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_23_jpg.rf.ee5ec0a1215fd70198e9dafbb5e40745.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Capture_JPG.rf.6ca4cd2a0a2860ae24c735365809ea56.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_33_jpg.rf.ee2f04cb2911c501c1ced26308e005ed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_4_jpg.rf.070b59a3d40eabe06aae6446487ae11c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Yellow-distorted-tomato-foliage-caused-by-Tomato-yellow-leaf-curl-virus_png.rf.c4fe03e6130271136479969c59854b69.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Capture_JPG.rf.3c94c1a998c10809ef7bedc9d4958ee9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-11_jpg.rf.13ad74863ed241a90c516557f4413d1b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_33_jpg.rf.c48ebfe45a5c3d35527743fb093a8d0d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3355_jpg.rf.c013c39984f28a2166ff0e25293afb45.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,image2-7-e1627072469249_jpg.rf.9c98855c6043055b912d15c9cb579db3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2242_jpeg.rf.6459f04b624538111552fbe5a8da2863.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Capture_JPG.rf.b979fe3b00fe26c8a68439aa87c64d35.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_34_png.rf.6f75361c09e832df751ecf358fc63ac4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1451_jpg.rf.5b50c13674bdbf97380ea463734bef14.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-3_jpg.rf.153c9851bafe32cd1edb78f86115b8bd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165840_jpg.rf.964acbce5f9017a2822ebab4ac6b9a39.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2722_jpg.rf.27bf3fd068fbe1bc0213dd413be6182a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_29_png.rf.25cd788e71ed907366802f56230ca418.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2593_jpg.rf.871d73345546fcc32ff19fd49cfc768c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2242_jpeg.rf.86132351f784193831fd829ba1c6d589.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_2_png.rf.41928d73ca4532d1b6d3f907e87a7802.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-tomato_webp.rf.cf1155f579775c0844634adc0b006e29.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_12_png.rf.57b9a9211022911bc6ff55de1cbca72c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.a206c2fb9eeca28803417416a773c66e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,PR112image1_jpg.rf.0610f07e17d689d08e4947265f510f99.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_8_jpg.rf.8930f8293c26c561f2be7925fabccf7a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,6_JPG.rf.3e04bf478c78d97a25a5df466840c2f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2242_jpeg.rf.a1c0a731b0b6270e68625d6a71d3e721.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-23_jpg.rf.531c5b0c3cd42bba69a11cd9814be82a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Yellow-distorted-tomato-foliage-caused-by-Tomato-yellow-leaf-curl-virus_png.rf.464119c7f0b6d8d04841c8490514336f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,late-blight-tomato_webp.rf.8f4867cc8f3947ce32c9bcee0d42db03.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2871_jpg.rf.e3cee244e6486d50be877a1758045421.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1451_jpg.rf.d47ede46a1529db351cc7874cf4a959d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,4091_jpg.rf.3a518d6536a543e7f073fc5be93b49e9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_26_jpg.rf.a0f9a6f527c9b27eb2f828859cb1b0db.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-12_jpg.rf.364d14466d71023898eec5aff39fb820.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2593_jpg.rf.1372aa929bdd38c414b464c23ea81b7b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2593_jpg.rf.3bc04dd2d857f0176c922929f3edb95e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1898_jpg.rf.84410cffc8b38779aacbdfb4ee89cd6a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-8_jpeg.rf.2cb386b90b433645e4897361243673c5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-10_jpg.rf.9472cd5497f94bff42f0238dfe75d91d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,5816170789_b3ded275fd_o_jpg.rf.b03ac4b3767a1a2487a5cca8f4cf2ba6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,frcfig7astr41_jpg.rf.c2ede671d162176c9700e034e47d07fd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,images_jpg.rf.5e8432909fed8ff607f01d15f4d40be3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2245_jpeg.rf.3fba9d12494799331d766e936d70d25e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,bacterial-leaf-spot-780x520_jpg.rf.a1ebc261130ea8a640f8522aad85215a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_15_jpg.rf.0507600b7ea0fc116b10a7ea073202af.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-15_jpg.rf.32d6e4529245a12bdcfb78d7a6df7ee3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_10_jpg.rf.0bd78206ed6c182c43f7ab954ae7baaa.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,8226402877-38b85d3ed4-o_orig_jpg.rf.f91facf5117398daad388e919aeec722.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.18ff7ce12d3675ec5498c38c4639ffc7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,12b929ed-131c-4aa7-822c-f0ca69654caa_png.rf.d1f72c3559264dba23d88dea5c9738cf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_11_png.rf.53d33837e5293e411ecbc82c1e763e2c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,4_JPG.rf.c0b7bc9977526b79099f2f4d55dea5f9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165839_jpg.rf.db67d6bf10d958c2aa516a0945cdce2c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3353_jpg.rf.ddb533d3635e1d218bcc0175969770f1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3520_jpg.rf.e41ecae7f446ac74280a4f8f07056cc4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3737_jpg.rf.c8f8e499126861fa84b452021b1bf7e6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2245_jpeg.rf.47db95eb6596760ac80ebc37b1f88d46.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-11_jpg.rf.106ee0df24773a0b0df46754b1eb11a0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2240_jpeg.rf.f4057fa4fe7baf987fb5249f1bdf7b37.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_jpg.rf.8756684a2eb23ff289fcf25d8e5f8da7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,5411468_jpg.rf.39f48b733bd67b5ca05e0f110e9bdd0a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165839_jpg.rf.397704a073c49738a35b08b8c4f2dba6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,5816170789_b3ded275fd_o_jpg.rf.f7e2bcc5c2288fe6e381c737b8472186.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_32_png.rf.5bc9252684459bd81998dc02bf43a7d4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-10_jpg.rf.b631ee774af80d299b2e180bdc0ce4a1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_17_jpg.rf.7eb1dd16f26008fe3678bb3860dd645c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_22_jpg.rf.63de80c545e115e21b719e48c528969c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2448_jpg.rf.c57b2170e733d596f417a564e160fa7a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,4091_jpg.rf.27e59b1d3e01c6cce4bf74a0fdca10a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2233_jpeg.rf.591678deaad37aabc9764ab3c774e171.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3434_jpg.rf.0169fa4b2922c227e6a0147a53a4734f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3018_jpg.rf.74ec47a1ae54cb6fc8e1c08ea451152a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-15_jpg.rf.00c5b2758b9f4c12b2611687b9156ee9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-4_jpg.rf.08c1582749485a24e2cd03b248b830b0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3233_jpg.rf.7cc86749805f3d1a2a6813f00c6aca31.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3970_jpg.rf.fc0f07fac9a1d280ab1bf2430e6e52ec.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3325_jpg.rf.5518918c2b75b888776675d500d27ee3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_4_jpg.rf.1381f871e9dd5cfff151ae9f461954eb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_15_jpg.rf.f8ad530a06a008d4eb10d70fba01b207.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_29_png.rf.c3da7e20ca133b1892a37efbf2353de2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3018_jpg.rf.8cc2b34ac40e41274c9cf44e2e0f1444.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_28_png.rf.18719cf582e68becd9db4ad274f1e828.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,8226402877-38b85d3ed4-o_orig_jpg.rf.2c850aa3b422d5389c97eaa109aae4dc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_12_png.rf.8cd1059a682bc496d42c9885b5c4a2b4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Symptoms-of-bacterial-leaf-spot-of-tomato-A-C-E-and-chilli-B-D-F-at-21-days-post_png.rf.5dab4b45841b9ee2eee7330aca8e01e6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2206_jpg.rf.44795ae70a034d1668ffc52d9a12c9ae.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3233_jpg.rf.c26b78e414237fdab531ec72812f45fe.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_18_jpg.rf.c3ccac632612ab942da75f0f4045ad29.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,20240928_165839_jpg.rf.9cd5fc6edfc1b0a18785e6ba46807f5f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,12b929ed-131c-4aa7-822c-f0ca69654caa_png.rf.f2dbe5a85a492c387365419a8d485edb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2229_jpeg.rf.35acc94b5171228c3e56330099d6445b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_5_jpg.rf.7d0fc700f6965161c4846ee9f36d083c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2243_jpeg.rf.9663bb411276753903d4daedd4a9403d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_16_png.rf.e8f99e7adc6b38cde73e80b677728e35.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3_JPG.rf.625ae00ec9d202976c5eceb324d33fc2.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,1451_jpg.rf.671c33f230fc1d7796fd05a34d13e969.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3355_jpg.rf.8333c2a2adb97be3806cebfe12fd2507.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2484_jpg.rf.78823e09b2f6f5aecbe8e6288cfa0bee.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_21_jpg.rf.18e0b79f9bc6c4b39f08330beb191d82.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,IMG_2229_jpeg.rf.568f191e65f910626ceb816054711559.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_2_png.rf.1445e1f76835aab81b1ca706c4adb8ea.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3233_jpg.rf.1f70d41446191144f957f3a3b3c3ccfa.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3597_jpg.rf.37c81e4471614d74faddadc2ccac46bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_-Dehydration_jpg.rf.65712e8d694976bc3d8b7bc2e00837cb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_29_png.rf.93aeb4455c134c6c7c543ad9c3cc7976.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,2206_jpg.rf.3d5d1cf787933216883b06439852710a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_27_jpg.rf.ba591661e300be07c1569eadcb8b54db.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_21_jpg.rf.b46d6b84b6947b4782f124d12270e8d6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,369_jpg.rf.84b49629dbdfbc4fcabf3ada6dbe449d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight_jpg.rf.93cacf648e6a62a39af74767e923ecd8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,5411468_jpg.rf.5d07b9d62f3f4a1ad696edb098d07329.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,3205_jpg.rf.c071b6cb86f2e1426e633b6b861c1040.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,Late-Blight-7_jpg.rf.32b3765b73c42c03a994f37033dd1dd0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_11_png.rf.a4146518d86388648089f5dce4c9cdd7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,train,BacterialSpot_31_png.rf.caf41c2a1e95a02ef54ee03424981328.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_20_png.rf.ab43339cf8c67125d0716b84236669a9.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,1512_jpg.rf.14ff51e152d5cc37dbabfbbded681842.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,20240915_173904_jpg.rf.d9cf567e98bb1404425e905889c8c4ff.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_7_jpg.rf.4d091d34a22684556ece7ada1bd85762.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight_jpg.rf.43bce6d611ef8116942affbecd69129e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,2_JPG.rf.f0d578e5476bd58d8d67c58edd428dd3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight-6_jpg.rf.689a0b79583fe6fe63ce3ee1ece29eab.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,20240928_165846_jpg.rf.497ba3a8803e0b64a395d06fac277228.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,20230816_193650_jpg.rf.2f058f1dcf44d66b1de3d0e0b843ba78.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,1955_jpg.rf.6bdf637b9219e51e02be10b289c5727f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,IMG_2248_jpeg.rf.c5050ed33dfa234829c6af6c5d499d70.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_14_png.rf.1269476c935c98988903620769ed34f1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,2355_jpg.rf.f624a1c046112ce7c700377b12e703fb.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,5_JPG.rf.4a5f1d426fe8676ad8a0bdff2bfe7e14.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight-14_jpg.rf.31e6c7436f83133b54fe8f4e64a87716.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_1_png.rf.40b1efdfd33152a8d563fcddc91dce85.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_9_jpg.rf.f9903513813f398dda38fe51aad78c26.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,Late-Blight2_jpg.rf.daaa32d87638cab156df1b9dc78e5ce5.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,IMG_2291_jpeg.rf.6cd2ff05191d009fcdd918a5525f9022.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,BacterialSpot_24_jpg.rf.763e04b2b8f2e4eb1a5ae0fd95a68d24.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,3628_jpg.rf.584060df7b7a7b709230aea0a9f48362.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,0216_jpg.rf.8d7245eb0517f4dd895d7372c8c8cfd7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,228_jpg.rf.65b3fc14a677158984cb2a920556959f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,3-s2-0-B9780123744104006506-gr3_jpg.rf.5b36ff5f4254f0e49648ea7015a6d42e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,Halo-2-3-1080x675-1_jpg.rf.06ad722572af8c32174834550d1d2ef1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,2767_jpg.rf.5818af788c9c43845bd1f06d71cb30a8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,valid,4009_jpg.rf.3d48212849bf72cf2757a846ec101428.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,Late-Blight-9_jpg.rf.ca27c0bb23488c84188729cbac75a407.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,2407_jpg.rf.98ae477942777cf8dc7cd54fc263372d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,IMG_2232_jpeg.rf.83014f3fbf49be5dd18d835715c52ebd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,3319_jpg.rf.6e4c8cae34d3b827f9c3c7c0c9bcf8c8.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,2460_jpg.rf.371dfaa68b8e1d072661ac19ccd1d887.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,BacterialSpot_6_jpg.rf.24cd58592d3030b91553cc23b18a8ace.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,1187_jpg.rf.097220c52a69fbfeca0e06eb2bfbc8a7.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,2525_jpg.rf.590ac8407bfce4730f720eac1f77e3c6.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,1640_jpg.rf.2a402deea2191347358573b87b7c1f77.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Plant Classification and Disease.v3i.tensorflow,test,1780_jpg.rf.f561752f84f49cee007b59deb2c5f155.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak memiliki anotasi di CSV
-Perfect Data Set,unsplit,marigold/Helathy Leaves,-,Typographical Error in Class Name,Nama folder 'Helathy Leaves' (seharusnya 'Healthy Leaves')
-Perfect Data Set,unsplit,rose/botrytis blight,-,Synthetic Background Removal Bias,558 dari 558 gambar memiliki latar belakang terhapus (no_bg_*)
-Perfect Data Set,unsplit,rose/Healthy,-,Synthetic Background Removal Bias,1167 dari 1167 gambar memiliki latar belakang terhapus (no_bg_*)
-Perfect Data Set,unsplit,rose/Pest Damage,-,Synthetic Background Removal Bias,790 dari 790 gambar memiliki latar belakang terhapus (no_bg_*)
-Perfect Data Set,unsplit,rose/Rose Mosaic Virus,-,Synthetic Background Removal Bias,245 dari 245 gambar memiliki latar belakang terhapus (no_bg_*)
-Rose And MArigold Leaf Disease 1,unsplit,marigold/Helathy Leaves,-,Typographical Error in Class Name,Nama folder 'Helathy Leaves' (seharusnya 'Healthy Leaves')
-Rose And MArigold Leaf Disease 1,unsplit,rose/botrytis blight,-,Synthetic Background Removal Bias,558 dari 558 gambar memiliki latar belakang terhapus (no_bg_*)
-Rose And MArigold Leaf Disease 1,unsplit,rose/Healthy,-,Synthetic Background Removal Bias,1167 dari 1167 gambar memiliki latar belakang terhapus (no_bg_*)
-Rose And MArigold Leaf Disease 1,unsplit,rose/Pest Damage,-,Synthetic Background Removal Bias,790 dari 790 gambar memiliki latar belakang terhapus (no_bg_*)
-Rose And MArigold Leaf Disease 1,unsplit,rose/Rose Mosaic Virus,-,Synthetic Background Removal Bias,245 dari 245 gambar memiliki latar belakang terhapus (no_bg_*)
+goletplant.v5i.tensorflow,train,IMG_20210721_183238_jpg.rf.94a3054f64b9f91144dccddcce23322f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,Euphorbiamilii_249_jpg.rf.9d21d54a32623f1bcf8b3a8c1b6d78dc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202104_jpg.rf.0d8c218ca4bc827338590c10b8cc82c1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202004_jpg.rf.baa6279fa819bb55486b1f4782002e46.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191653_jpg.rf.65f43a82747b8cfd2515ca83a2c60177.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202004_jpg.rf.2b73ac7c1f7505dacaf05b9da2821965.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202119_jpg.rf.16f27a1b22e8b3f196ae5cd0ccd1d00a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221001_094943_jpg.rf.5552983dd52ce032164d3bc800a91345.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,BegoniaRex_153_jpg.rf.18e3340dc2fa49f2ac268d49e8a8d539.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210709_093254_jpg.rf.e5d68f2b957bc79b239f44a61b614415.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210709_093254_jpg.rf.77c11cd748822d71d1ca2b381e8b142a.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191644_jpg.rf.e8ca1036e755099fe649d69783c9443e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220524_102113_jpg.rf.e67daab83c217fec3487fc277f130199.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191604_jpg.rf.7ad903a631dc695a34e82afd105d1685.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,PonytailPalm_30_jpg.rf.e180366add44c93dd4885b9fe9e11b92.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202119_jpg.rf.1cce11475e67d0ad5700fcb42d440dc0.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191653_jpg.rf.0533b025dc2316913620a9f6f315cd88.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,CrassulaPortulaca_50_jpg.rf.e95f51087d993712be3d59e213ea584c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220331_104418_jpg.rf.4eaed6081f9ebad3d9f8086de2888b9f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220524_102019_jpg.rf.969e940a08393f0594e02b7dbf5dbc6d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,Kalanchoe_4_jpg.rf.62be18969df360316464a48050527732.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202104_jpg.rf.89dd3bdf2a904f4b7a6ee90058b10c98.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,CrassulaPortulaca_50_jpg.rf.7b3674be98e9dbcf2f83a7e43a25748b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_185522_jpg.rf.8be32f4a5a80cd44245ef22943f77f7f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191635_jpg.rf.2e9b444fa81bbfc3251b3747eb9ae9b3.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220331_104418_jpg.rf.2be4259029bc773c9226d4821f84d8dd.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220819_112451_jpg.rf.2df9dc9b92f5fbd40e7e828e76eedd9e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202004_jpg.rf.af8f61a444da5cd693a837682f72b34e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220801_200939_jpg.rf.bc0ae048e4193b5c1dfef64986ecf63b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,PonytailPalm_30_jpg.rf.d237e5989f6ff5f1ce63141f90c24bec.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191604_jpg.rf.65813d8b35b1d7a5e9d72a076aa46d0d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221001_094943_jpg.rf.037f76f97e2616122ff3a3de8ba4c613.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202031_jpg.rf.6a7d8d6407a2570ad2c5efcbedbb56bf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202031_jpg.rf.0d4dab1d7f285724b8a13ba6c3e50d0c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220703_154538_jpg.rf.f83a1a9b806e7ba36f4b6bf5c56cb8e4.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191705_jpg.rf.bfffd111eaa80ed74916fdbc7ff0cd4f.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220703_154538_jpg.rf.06569b63d97a47df9c890d73d237c73c.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210709_093254_jpg.rf.2cd5d397385d344e8b7fd2eb57e828cc.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202104_jpg.rf.07cdcd853b81b5efcef60052fc839dbf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,PonytailPalm_30_jpg.rf.95013863d8828c3c60d62fd10e06ca72.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_185522_jpg.rf.8c3a5ee3e3ceef4bd29349f97d3f591d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,Ficusbenjamina_111_jpg.rf.4740770bc418462c2fba62ffa787a954.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220524_102113_jpg.rf.8ec61c4d842c2c48c408c5b106bb4bed.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20210721_202119_jpg.rf.1b21c3a0ef2efd8e532bbba86c4c826d.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,Kalanchoe_4_jpg.rf.7e8e7d73948dfd1e5779ac33dfe9d154.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191644_jpg.rf.8635f3abbbe4bd2b1a7a17ec5ea217ac.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220801_200939_jpg.rf.793e7ad3d578305f235095db44d940cf.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,Euphorbiamilii_249_jpg.rf.a41392e8cd7def02e66ad69079166069.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191604_jpg.rf.55491feb339e98b3540f1f5b1f331a5b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20230224_151637_jpg.rf.623ed2b4ba327d86dc7e41c61d91ac87.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220331_104418_jpg.rf.682998822ee8dc5a15e8b94221f90e70.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20221223_191635_jpg.rf.84b33c23ba93f0beb1abf1ffc8d6c99e.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,IMG_20220819_112451_jpg.rf.e6c920777c15b37f1dcd9aed69d06ef1.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV
+goletplant.v5i.tensorflow,train,BegoniaRex_153_jpg.rf.3fd118a1db409f9a3f95e2ffe0ea5c9b.jpg,-,Orphaned Image File (No Annotation),Gambar ada di disk tetapi tidak dianotasi di CSV

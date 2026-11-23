@@ -1,7 +1,16 @@
 Dataset,Task,Format,Total Images,Train Images,Valid Images,Test Images,Unsplit Images,Size (MB),Corrupted
+A dataset of Yellow Disease in Horticultural Plant,Object Detection,YOLO Darknet / YOLOv5 (.txt per image),5095,0,0,0,5095,213.28,0
+Arabian Jasmine Leaf Condition Dataset (AJLCD-2025,Image Classification,Directory Structure (Folder per Class),6315,0,0,0,6315,2190.1,0
+Comparative Morphological and Phytochemical,Empty / None,Empty Directory,0,0,0,0,0,0.0,0
 Houseplants Image Detection.v1i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),6055,5967,4,84,0,320.69,0
+Klasifikasi Penyakit Daun Kopi.v4i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),3216,2804,263,149,0,189.59,0
+Leaf Image Dataset for Plant disease Classificatio,Image Classification (Archived),ZIP Archive (Unextracted),0,0,0,0,0,83.55,0
 Perfect Data Set,Image Classification,Directory Structure (Folder per Class),3449,0,0,0,3449,1649.84,0
 Plant Classification and Disease.v1i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),628,563,46,19,0,33.65,0
 Plant Classification and Disease.v3i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),3184,2921,178,85,0,222.62,0
+Potato Leaf Disease Dataset in Uncontrolled Environment,Image Classification,Directory Structure (Folder per Class),3076,0,0,0,3076,719.42,0
 Rose And MArigold Leaf Disease 1,Image Classification,Directory Structure (Folder per Class),3449,0,0,0,3449,1649.84,0
+Rubber_Leaf_Dataset,Image Classification,Directory Structure (Folder per Class),3481,0,0,0,3481,4398.8,0
+Tomato leaf diseases,Image Classification,Directory Structure (Folder per Class),2627,0,0,0,2627,429.86,0
+"dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis",Image Classification,Directory Structure (Folder per Class),4479,0,0,0,4479,2096.21,0
 goletplant.v5i.tensorflow,Object Detection,TensorFlow Object Detection (_annotations.csv),26063,25373,22,668,0,4919.25,0

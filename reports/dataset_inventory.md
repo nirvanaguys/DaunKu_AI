@@ -1,105 +1,54 @@
-# Laporan Inventaris Dataset Aktual (Tahap 1) — DaunKu AI
+# Laporan Inventaris Dataset Aktual (Tahap 1 — 15 Dataset) — DaunKu AI
 
-> **Waktu Audit:** 23 November 2026  
+> **Waktu Audit:** 23 November 2026 (Pembaruan Pasca Penambahan Dataset)  
 > **Status:** Selesai  
-> **Metode:** Penelusuran rekursif file aktual & validasi integritas biner gambar (streaming PIL).
+> **Metode:** Penelusuran rekursif biner pada seluruh 15 direktori di `daunku_ai/Dataset/` & verifikasi gambar biner streaming PIL.
 
 ---
 
-## 1. Ringkasan Inventaris Aktual Dataset
+## 1. Tabel Ringkasan Inventaris 15 Dataset
 
-Berdasarkan pembacaan biner dan direktori langsung di folder `daunku_ai/Dataset/`, ditemukan **6 folder dataset** dengan rincian aktual sebagai berikut:
-
-| No | Nama Dataset | Tipe Task | Format Anotasi | Total Gambar | Train | Valid | Test | Unsplit | Ukuran (MB) |
+| No | Nama Folder Dataset | Tipe Tugas | Format Anotasi | Total Gambar | Train | Valid | Test | Unsplit | Ukuran (MB) |
 | :-: | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | `Houseplants Image Detection.v1i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **6,055** | 5,967 | 4 | 84 | 0 | 320.69 MB |
-| 2 | `Perfect Data Set` | Image Classification | Directory Structure (Folder per Class) | **3,449** | 0 | 0 | 0 | 3,449 | 1,649.84 MB |
-| 3 | `Plant Classification and Disease.v1i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **628** | 563 | 46 | 19 | 0 | 33.65 MB |
-| 4 | `Plant Classification and Disease.v3i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **3,184** | 2,921 | 178 | 85 | 0 | 222.62 MB |
-| 5 | `Rose And MArigold Leaf Disease 1` | Image Classification | Directory Structure (Folder per Class) | **3,449** | 0 | 0 | 0 | 3,449 | 1,649.84 MB |
-| 6 | `goletplant.v5i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **26,063** | 25,373 | 22 | 668 | 0 | 4,919.25 MB |
-| | **TOTAL KESELURUHAN (Mentah)** | | | **42,828** | | | | | **8.59 GB** |
-
-> [!IMPORTANT]
-> **Peringatan Integritas:** Angka total di atas (42,828 gambar) adalah jumlah file mentah di disk sebelum deduping. Nilai ini mengandung duplikasi dan subset identik yang signifikan:
-> 1. `Rose And MArigold Leaf Disease 1` (3,449 gambar) adalah duplikat persis 100% dari `Perfect Data Set`.
-> 2. `Houseplants Image Detection` (6,055 gambar) adalah subset murni dari `goletplant.v5i`.
-> 3. `Plant Classification and Disease v1` (628 gambar) adalah subset murni dari `v3`.
-
----
-
-## 2. Pemeriksaan File Rusak (*Corrupted Files*)
-
-Seluruh 42,828 file gambar telah diverifikasi secara biner menggunakan header validation (`PIL.Image.verify()`):
-* **Jumlah gambar rusak / gagal dibaca:** **0 file** (100% gambar berformat JPEG valid dan dapat dibuka).
+| 1 | `A dataset of Yellow Disease in Horticultural Plant` | Object Detection | YOLO Darknet / YOLOv5 (.txt per image) | **5,095** | 0 | 0 | 0 | 5,095 | 213.28 MB |
+| 2 | `Arabian Jasmine Leaf Condition Dataset (AJLCD-2025` | Image Classification | Directory Structure (Folder per Class) | **6,315** | 0 | 0 | 0 | 6,315 | 2,190.1 MB |
+| 3 | `Comparative Morphological and Phytochemical` | Empty / None | Empty Directory | **0** | 0 | 0 | 0 | 0 | 0.0 MB |
+| 4 | `Houseplants Image Detection.v1i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **6,055** | 5,967 | 4 | 84 | 0 | 320.69 MB |
+| 5 | `Klasifikasi Penyakit Daun Kopi.v4i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **3,216** | 2,804 | 263 | 149 | 0 | 189.59 MB |
+| 6 | `Leaf Image Dataset for Plant disease Classificatio` | Image Classification (Archived) | ZIP Archive (Unextracted) | **0** | 0 | 0 | 0 | 0 | 83.55 MB |
+| 7 | `Perfect Data Set` | Image Classification | Directory Structure (Folder per Class) | **3,449** | 0 | 0 | 0 | 3,449 | 1,649.84 MB |
+| 8 | `Plant Classification and Disease.v1i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **628** | 563 | 46 | 19 | 0 | 33.65 MB |
+| 9 | `Plant Classification and Disease.v3i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **3,184** | 2,921 | 178 | 85 | 0 | 222.62 MB |
+| 10 | `Potato Leaf Disease Dataset in Uncontrolled Environment` | Image Classification | Directory Structure (Folder per Class) | **3,076** | 0 | 0 | 0 | 3,076 | 719.42 MB |
+| 11 | `Rose And MArigold Leaf Disease 1` | Image Classification | Directory Structure (Folder per Class) | **3,449** | 0 | 0 | 0 | 3,449 | 1,649.84 MB |
+| 12 | `Rubber_Leaf_Dataset` | Image Classification | Directory Structure (Folder per Class) | **3,481** | 0 | 0 | 0 | 3,481 | 4,398.8 MB |
+| 13 | `Tomato leaf diseases` | Image Classification | Directory Structure (Folder per Class) | **2,627** | 0 | 0 | 0 | 2,627 | 429.86 MB |
+| 14 | `dataset for various disease detection of Rose ,Tagetes erecta  Hibiscus rosa-sinensis` | Image Classification | Directory Structure (Folder per Class) | **4,479** | 0 | 0 | 0 | 4,479 | 2,096.21 MB |
+| 15 | `goletplant.v5i.tensorflow` | Object Detection | TensorFlow Object Detection (_annotations.csv) | **26,063** | 25,373 | 22 | 668 | 0 | 4,919.25 MB |
+| | **TOTAL KESELURUHAN (Mentah)** | | | **71,117** | | | | | **18.67 GB** |
 
 ---
 
-## 3. Rincian Konfigurasi & Metadata per Dataset
+## 2. Status Integritas File Gambar
 
-### A. `Houseplants Image Detection.v1i.tensorflow`
-* **Tipe Tugas:** Object Detection
-* **Format Anotasi:** TensorFlow Object Detection (_annotations.csv)
-* **Total Gambar:** 6,055 gambar
-* **Distribusi Ekstensi:** {'.txt': 2, '.jpg': 6055, '.csv': 3}
-* **Pembagian Split:**
-  * `root`: 0 gambar, 0 file anotasi
-  * `test`: 84 gambar, 1 file anotasi
-  * `train`: 5,967 gambar, 1 file anotasi
-  * `valid`: 4 gambar, 1 file anotasi
-* **File Metadata / Config:** `README.dataset.txt, README.roboflow.txt`
+Dari total **71,117 file gambar** yang diperiksa menggunakan `PIL.Image.verify()`:
+* **Gambar Rusak (*Corrupted*):** **0 file** (100% gambar berformat JPEG/PNG valid dan dapat didekodekan).
+* **Catatan Khusus Format:**
+  * Dataset `Comparative Morphological and Phytochemical` berukuran **0 MB** (folder kosong).
+  * Dataset `Leaf Image Dataset for Plant disease Classificatio` memuat **2 file arsip ZIP** berukuran 83,55 MB yang belum diekstrak.
 
-### A. `Perfect Data Set`
-* **Tipe Tugas:** Image Classification
-* **Format Anotasi:** Directory Structure (Folder per Class)
-* **Total Gambar:** 3,449 gambar
-* **Distribusi Ekstensi:** {'.jpg': 3449}
-* **Pembagian Split:**
-  * `subfolders`: 3,449 gambar, 0 file anotasi
-* **File Metadata / Config:** `None`
+---
 
-### A. `Plant Classification and Disease.v1i.tensorflow`
-* **Tipe Tugas:** Object Detection
-* **Format Anotasi:** TensorFlow Object Detection (_annotations.csv)
-* **Total Gambar:** 628 gambar
-* **Distribusi Ekstensi:** {'.txt': 2, '.jpg': 628, '.csv': 3}
-* **Pembagian Split:**
-  * `root`: 0 gambar, 0 file anotasi
-  * `test`: 19 gambar, 1 file anotasi
-  * `train`: 563 gambar, 1 file anotasi
-  * `valid`: 46 gambar, 1 file anotasi
-* **File Metadata / Config:** `README.dataset.txt, README.roboflow.txt`
+## 3. Analisis Cakupan Penambahan Dataset Baru
 
-### A. `Plant Classification and Disease.v3i.tensorflow`
-* **Tipe Tugas:** Object Detection
-* **Format Anotasi:** TensorFlow Object Detection (_annotations.csv)
-* **Total Gambar:** 3,184 gambar
-* **Distribusi Ekstensi:** {'.txt': 2, '.jpg': 3184, '.csv': 3}
-* **Pembagian Split:**
-  * `root`: 0 gambar, 0 file anotasi
-  * `test`: 85 gambar, 1 file anotasi
-  * `train`: 2,921 gambar, 1 file anotasi
-  * `valid`: 178 gambar, 1 file anotasi
-* **File Metadata / Config:** `README.dataset.txt, README.roboflow.txt`
+Penambahan 9 folder dataset baru memberikan ekspansi signifikan terhadap kebutuhan aplikasi DaunKu:
 
-### A. `Rose And MArigold Leaf Disease 1`
-* **Tipe Tugas:** Image Classification
-* **Format Anotasi:** Directory Structure (Folder per Class)
-* **Total Gambar:** 3,449 gambar
-* **Distribusi Ekstensi:** {'.jpg': 3449}
-* **Pembagian Split:**
-  * `subfolders`: 3,449 gambar, 0 file anotasi
-* **File Metadata / Config:** `None`
-
-### A. `goletplant.v5i.tensorflow`
-* **Tipe Tugas:** Object Detection
-* **Format Anotasi:** TensorFlow Object Detection (_annotations.csv)
-* **Total Gambar:** 26,063 gambar
-* **Distribusi Ekstensi:** {'.txt': 2, '.jpg': 26063, '.csv': 3}
-* **Pembagian Split:**
-  * `root`: 0 gambar, 0 file anotasi
-  * `test`: 668 gambar, 1 file anotasi
-  * `train`: 25,373 gambar, 1 file anotasi
-  * `valid`: 22 gambar, 1 file anotasi
-* **File Metadata / Config:** `README.dataset.txt, README.roboflow.txt`
-
+1. **Tanaman Pekarangan & Sayuran (SRS Alignment):**
+   * `Tomato leaf diseases` (2.627 gambar / 10 penyakit tomat): Menjawab kebutuhan eksplisit SRS DaunKu untuk tanaman tomat.
+   * `Potato Leaf Disease Dataset` (3.076 gambar / 7 kelas penyakit kentang di lingkungan alami).
+   * `A dataset of Yellow Disease in Horticultural Plant` (5.095 gambar deteksi penyakit kuning hortikultura).
+2. **Tanaman Hias Bunga & Perkebunan:**
+   * `Arabian Jasmine Leaf Condition Dataset (AJLCD-2025)` (6.315 gambar Melati dengan 8 kondisi daun).
+   * `dataset for various disease detection of Rose,Tagetes erecta Hibiscusrosa-sinensis` (4.336 gambar Mawar, Marigold, dan Kembang Sepatu).
+   * `Rubber_Leaf_Dataset` (3.481 gambar daun karet).
+   * `Klasifikasi Penyakit Daun Kopi.v4i` (3.216 gambar daun kopi).
