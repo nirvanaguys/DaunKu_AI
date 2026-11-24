@@ -56,10 +56,10 @@ Mengacu pada dokumen kerja [Rencana_Implementasi_AI_DaunKu.md](file:///d:/Collag
 * [x] **Tahap 0 — Pemeriksaan Lingkungan:** Verifikasi Python 3.13.9, ketersediaan library data science, dan hardware (`reports/environment_audit.md`).
 * [x] **Tahap 1 — Inventarisasi Dataset:** Menelusuri seluruh 14 dataset, 85.022 file gambar, dan split data (`reports/dataset_inventory.md` & `artifacts/dataset_inventory.json`).
 * [x] **Tahap 2 — Audit Label & Anotasi:** Menganalisis taksonomi kelas tanaman hias, sayuran, bunga, dan perkebunan serta mencatat 944 anomali/catatan kualitas (`reports/label_and_annotation_audit.md` & `reports/annotation_issues.csv`).
-* [ ] **Tahap 3 — Audit Duplikasi & Kebocoran Data:** Kalkulasi sidik jari hash (SHA-256) untuk mendeteksi gambar duplikat/subset identik.
-* [ ] **Tahap 4 — Pemeriksaan Kualitas Visual:** Peninjauan sampel gambar per kelas, mendeteksi bias latar belakang (*no_bg bias*).
-* [ ] **Tahap 5 — Pemetaan Label & Manifest Kanonis:** Menyusun *canonical dataset* terpadu untuk kebutuhan model DaunKu.
-* [ ] **Tahap 6 — Pembagian Data (Stratified Re-Split):** Membagi dataset ke dalam 80% Train, 10% Valid, dan 10% Test secara seimbang.
+* [x] **Tahap 3 — Audit Duplikasi & Kebocoran Data:** Kalkulasi sidik jari hash (SHA-256) untuk mendeteksi gambar duplikat/subset identik.
+* [x] **Tahap 4 — Pemeriksaan Kualitas Visual:** Peninjauan sampel gambar per kelas, mendeteksi bias latar belakang (*no_bg bias*).
+* [x] **Tahap 5 — Pemetaan Label & Manifest Kanonis:** Menyusun *canonical dataset* terpadu untuk kebutuhan model DaunKu.
+* [x] **Tahap 6 — Pembagian Data (Stratified Re-Split):** Membagi dataset ke dalam 80% Train, 10% Valid, dan 10% Test secara seimbang.
 * [ ] **Tahap 7–12 — Pemodelan AI, Evaluasi, Knowledge Base & API FastAPI:** Melatih model klasifikasi/deteksi, menyusun basis rekomendasi perawatan, dan membangun REST API inferensi.
 * [ ] **Tahap 13–14 — Integrasi Aplikasi Flutter & Dokumentasi Final.**
 
