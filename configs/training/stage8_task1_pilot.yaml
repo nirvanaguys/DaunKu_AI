@@ -1,0 +1,78 @@
+# Stage 8.1 — Pilot Training Configuration: Task 1 (Plant Species Identification)
+# Project: DaunKu AI
+# Status: Ready for Google Colab GPU execution (Pilot max 3 epochs)
+
+experiment:
+  name: stage8_1_task1_species_id_pilot
+  stage: "8.1"
+  task: species_id
+  description: "Pilot training EfficientNet-B0 (68 single-species classes, max 3 epochs) untuk memvalidasi pipeline training di Google Colab GPU."
+  experiment_seed: 42
+  split_seed: 42
+  max_epochs: 3
+  evaluate_locked_test: false  # DILARANG keras pada Stage 8.1
+
+data:
+  split_manifest_path: artifacts/splits/split_manifest.csv
+  label_mapping_path: configs/label_mapping.yaml
+  inner_train_manifest: artifacts/splits/task1_pilot/task1_inner_train.csv
+  inner_val_manifest: artifacts/splits/task1_pilot/task1_inner_val.csv
+  class_mapping_path: artifacts/splits/task1_pilot/task1_class_mapping.json
+  num_classes: 68
+  single_species_only: true
+  exclude_multi_species_delimiter: " / "
+  inner_val_ratio: 0.15
+  group_column: meta_component_id
+  expected_stage6_train_images: 37408
+  expected_stage6_val_images: 6068      # Tidak digunakan pada pilot Stage 8.1
+  expected_stage6_test_images: 6047     # LOCKED — dilarang dibaca pada Stage 8.1
+  expected_excluded_combo_images: 107   # 37 multi-species combination labels
+
+model:
+  architecture: efficientnet_b0
+  pretrained: true
+  weights: IMAGENET1K_V1
+  input_size: 224
+  num_classes: 68
+
+training:
+  loss: CrossEntropyLoss
+  label_smoothing: 0.1
+  optimizer: AdamW
+  learning_rate: 3.0e-4
+  weight_decay: 1.0e-4
+  batch_size: 64                # Nilai awal; turunkan ke 32 jika VRAM GPU terbatas
+  num_workers: 2                # Aman untuk Google Colab runtime
+  pin_memory: true
+  use_amp: true                 # Automatic Mixed Precision (FP16) saat CUDA tersedia
+  scheduler:
+    type: LinearWarmupCosineAnnealing
+    pilot_warmup_epochs: 1      # Warmup 3 epoch pada pilot 3 epoch tidak akan masuk fase cosine decay; 1 epoch warmup + 2 epoch cosine decay dipakai khusus pilot, sementara full training (25-30 epoch) tetap memakai warmup 3 epoch.
+    full_training_warmup_epochs: 3
+    min_lr: 1.0e-6
+
+augmentation:
+  train:
+    random_resized_crop_scale: [0.75, 1.0]
+    random_horizontal_flip_p: 0.5
+    random_rotation_degrees: 15
+    color_jitter:
+      brightness: 0.15
+      contrast: 0.15
+      saturation: 0.15
+      hue: 0.02
+  val:
+    resize: 256
+    center_crop: 224
+  normalize:
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+
+outputs:
+  local_checkpoint_dir: models
+  local_log_dir: reports/training_experiments
+  drive_output_dir: /content/drive/MyDrive/DaunKu_AI/stage8_1_pilot
+  checkpoint_filename: stage8_task1_pilot_efficientnet_b0_best.pt
+  metrics_json: stage8_task1_pilot_metrics.json
+  per_class_csv: stage8_task1_pilot_per_class.csv
+  actual_config_yaml: stage8_task1_pilot_actual_config.yaml

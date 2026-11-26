@@ -1,0 +1,23 @@
+{
+  "stage": "8.1_task1_pilot",
+  "seed": 42,
+  "target_inner_val_ratio": 0.15,
+  "num_classes": 68,
+  "stage6_train_single_species_images": 37408,
+  "stage6_train_meta_components": 19447,
+  "inner_train_images": 31829,
+  "inner_train_ratio": 0.8509,
+  "inner_train_meta_components": 16485,
+  "inner_train_classes": 68,
+  "inner_val_images": 5579,
+  "inner_val_ratio": 0.1491,
+  "inner_val_meta_components": 2962,
+  "inner_val_classes": 68,
+  "meta_component_overlap": 0,
+  "image_id_overlap": 0,
+  "stage6_validation_used": false,
+  "locked_test_used": false,
+  "missing_paths": 0,
+  "pil_sample_checked": 200,
+  "pil_corrupt_found": 0
+}
